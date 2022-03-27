@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_298
+	METHOD method_940 collect (II)Lnet/minecraft/class_236;

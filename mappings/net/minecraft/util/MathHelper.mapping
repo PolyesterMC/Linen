@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_230 net/minecraft/util/MathHelper
+	METHOD method_738 floor (D)I

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_61 net/minecraft/util/Tickable
+	FIELD field_203 ticks F
+	FIELD field_209 lastCurrentTime J
+	FIELD field_210 lastNanoTime J
+	METHOD <init> (F)V
+		ARG 1 ticks
+	METHOD method_201 tick ()V

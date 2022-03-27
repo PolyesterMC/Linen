@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_229 net/minecraft/util/Util
+	METHOD method_732 setContextTitle (Ljava/lang/String;)V

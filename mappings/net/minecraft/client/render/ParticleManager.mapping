@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_114 net/minecraft/client/render/ParticleManager
+	FIELD field_369 world Lnet/minecraft/class_159;
+	METHOD <init> (Lnet/minecraft/class_159;Lnet/minecraft/class_243;)V
+		ARG 1 world
+	METHOD method_318 reload (Lnet/minecraft/class_159;)V
+	METHOD method_320 getParticleCount ()Ljava/lang/String;

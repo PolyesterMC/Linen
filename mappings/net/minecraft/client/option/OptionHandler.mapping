@@ -25,8 +25,10 @@ CLASS net/minecraft/class_269 net/minecraft/client/option/OptionHandler
 	FIELD field_1079 client Lnet/minecraft/class_25;
 	FIELD field_1080 I
 	FIELD field_1081 difficulty I
+	FIELD field_1082 thirdPerson Z
 	METHOD <init> (Lnet/minecraft/class_25;Ljava/io/File;)V
 		ARG 1 client
 		ARG 2 optionsFile
 	METHOD method_830 loadOptions ()V
 	METHOD method_833 saveOptions ()V
+	METHOD method_835 setOption (II)V

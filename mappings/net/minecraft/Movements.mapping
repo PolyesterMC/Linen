@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_192 net/minecraft/Movements
+	FIELD field_735 leftwardVelocity F
+	FIELD field_736 forwardVelocity F
+	METHOD method_615 resetMovement ()V
+	METHOD method_616 updateMovementValue (IZ)V
+		ARG 1 keyCode
+		ARG 2 updatedValue
+	METHOD method_617 (Lnet/minecraft/class_191;)V
+		ARG 1 player

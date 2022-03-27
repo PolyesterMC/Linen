@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_101 net/minecraft/client/gui/Screen
+	FIELD field_307 client Lnet/minecraft/class_25;
+	FIELD field_311 isPlayerInventory Z
+	METHOD method_270 init (Lnet/minecraft/class_25;II)V

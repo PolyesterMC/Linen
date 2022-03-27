@@ -1,0 +1,28 @@
+CLASS net/minecraft/class_159 net/minecraft/world/World
+	FIELD field_535 listeners Ljava/util/List;
+	FIELD field_550 brightnessLevels [F
+	FIELD field_552 difficultyLevel I
+	FIELD field_553 textRenderer Ljava/lang/Object;
+	FIELD field_555 spawnX I
+	FIELD field_557 spawnZ I
+	FIELD field_559 seed J
+	FIELD field_562 illuminatedAreas Ljava/util/List;
+	FIELD field_563 tickableEntities Ljava/util/List;
+	METHOD method_484 setPlayer (Lnet/minecraft/class_191;)V
+		ARG 1 player
+	METHOD method_490 addEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD method_491 save (Lnet/minecraft/class_272;)V
+	METHOD method_504 spawnPlayer (Lnet/minecraft/class_144;)V
+	METHOD method_507 getEntities (Ljava/lang/Class;)I
+		ARG 1 entitClass
+	METHOD method_509 tickEntities ()V
+	METHOD method_515 getDebugStringT ()Ljava/lang/String;
+	METHOD method_518 isPositionLoaded (III)Z
+	METHOD method_520 refreshIlluminatedAreas ()Z
+	METHOD method_528 initialize ()V
+	METHOD method_534 getTickableEntities ()Ljava/util/List;
+	METHOD method_545 markDirty (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

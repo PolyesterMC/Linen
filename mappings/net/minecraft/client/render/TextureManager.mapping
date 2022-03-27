@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_243 net/minecraft/client/render/TextureManager
+	METHOD method_796 tick ()V
+	METHOD method_802 getTextureId (Ljava/lang/String;)I

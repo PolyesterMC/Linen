@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_53 net/minecraft/world/WorldEventListener
 	METHOD method_172 onEntitySpawn (Lnet/minecraft/class_144;)V
+	METHOD method_173 addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD method_174 playSound (Ljava/lang/String;DDDFF)V

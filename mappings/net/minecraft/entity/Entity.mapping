@@ -1,3 +1,6 @@
 CLASS net/minecraft/class_144 net/minecraft/entity/Entity
+	FIELD field_489 x D
+	FIELD field_491 z D
+	FIELD field_499 boundingBox Lnet/minecraft/class_140;
 	METHOD <init> (Lnet/minecraft/class_159;)V
 		ARG 1 world

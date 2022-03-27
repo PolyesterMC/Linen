@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_40 net/minecraft/block/tile/tileEntity
+	FIELD field_136 world Lnet/minecraft/class_159;
+	FIELD field_137 x I
+	FIELD field_138 y I
+	FIELD field_139 z I

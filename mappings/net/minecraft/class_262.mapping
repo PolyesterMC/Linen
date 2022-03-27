@@ -1,2 +1,17 @@
 CLASS net/minecraft/class_262
 	METHOD method_818 getBlockAtPosition (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_820 getLightBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_821 getBlockMeta (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_822 getMaterialAtPos (III)Lnet/minecraft/class_293;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

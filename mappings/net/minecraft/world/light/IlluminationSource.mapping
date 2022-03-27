@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_129 net/minecraft/world/light/IlluminationSource
+	FIELD field_403 SKY Lnet/minecraft/class_129;
+	FIELD field_404 BLOCK Lnet/minecraft/class_129;
+	FIELD field_405 defaultLight I

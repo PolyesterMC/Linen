@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_66 net/minecraft/world/ChunkAccess
+	METHOD method_203 isChunkLoaded (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD method_206 canWrite ()Z
+	METHOD method_207 getChunk (II)Lnet/minecraft/class_291;
+		ARG 1 x
+		ARG 2 z

@@ -1,1 +1,15 @@
 CLASS net/minecraft/class_201 net/minecraft/block/Block
+	FIELD field_793 FARMLAND Lnet/minecraft/class_201;
+	FIELD field_814 id I
+	FIELD field_829 STONE_SLAB Lnet/minecraft/class_201;
+	FIELD field_851 material Lnet/minecraft/class_293;
+	FIELD field_862 BLOCKS [Lnet/minecraft/class_201;
+	FIELD field_867 BLOCK_ILLUMINATION_VALUES [I
+	METHOD method_643 isCollidable (IZ)Z
+	METHOD method_650 getHitResult (Lnet/minecraft/class_159;IIILnet/minecraft/class_45;Lnet/minecraft/class_45;)Lnet/minecraft/class_212;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 pos1
+		ARG 6 pos2

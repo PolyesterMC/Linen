@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_98 net/minecraft/block/PositionedBlock
+	METHOD method_262 updateAge (J)Lnet/minecraft/class_98;

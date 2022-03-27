@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_68 net/minecraft/client/gui/screen/OptionsScreen
+	FIELD field_216 titleText Ljava/lang/String;
+	FIELD field_217 parent Lnet/minecraft/class_101;
+	FIELD field_218 optionHandler Lnet/minecraft/class_269;
+	METHOD <init> (Lnet/minecraft/class_101;Lnet/minecraft/class_269;)V
+		ARG 1 parent
+		ARG 2 optionHandler

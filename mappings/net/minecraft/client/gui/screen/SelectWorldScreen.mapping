@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_118 net/minecraft/client/gui/screen/SelectWorldScreen
+	FIELD field_378 parent Lnet/minecraft/class_101;
+	FIELD field_379 titleText Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_101;)V
+		ARG 1 parent

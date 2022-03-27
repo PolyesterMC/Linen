@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_257 net/minecraft/client/gui/Button
+	FIELD field_1028 id I
+	FIELD field_1029 canClick Z
+	METHOD method_815 render (Lnet/minecraft/class_25;II)V

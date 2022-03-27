@@ -1,0 +1,68 @@
+CLASS net/minecraft/class_291 net/minecraft/world/Chunk
+	FIELD field_1153 blocks [B
+	FIELD field_1155 world Lnet/minecraft/class_159;
+	FIELD field_1156 data Lnet/minecraft/class_242;
+	FIELD field_1157 skyLightmap Lnet/minecraft/class_242;
+	FIELD field_1158 blockLightmap Lnet/minecraft/class_242;
+	FIELD field_1159 heightMap [B
+	FIELD field_1161 chunkX I
+	FIELD field_1162 chunkZ I
+	FIELD field_1163 tileEntities Ljava/util/Map;
+	FIELD field_1164 entities [Ljava/util/List;
+	FIELD field_1165 terrainPopulated Z
+	FIELD field_1166 dirty Z
+	FIELD field_1169 containsEntities Z
+	METHOD <init> (Lnet/minecraft/class_159;II)V
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD <init> (Lnet/minecraft/class_159;[BII)V
+		ARG 1 world
+		ARG 2 blocks
+		ARG 3 chunkX
+		ARG 4 chunkZ
+	METHOD method_887 equals (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD method_888 getBlock (III)I
+	METHOD method_889 setBlock (IIII)Z
+	METHOD method_890 setBlockWithMeta (IIIII)Z
+	METHOD method_891 setTileEntityIntern (IIILnet/minecraft/class_40;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_892 setTileEntity (Lnet/minecraft/class_40;)V
+		ARG 1 tileEntity
+	METHOD method_893 getLightLevel (Lnet/minecraft/class_129;III)I
+	METHOD method_895 addEntity (Lnet/minecraft/class_144;)V
+	METHOD method_896 removeEntity (Lnet/minecraft/class_144;I)V
+		ARG 1 entity
+	METHOD method_897 fillListwithEntitiesByEntity (Lnet/minecraft/class_144;Lnet/minecraft/class_140;Ljava/util/List;)V
+		ARG 1 entityType
+		ARG 2 box
+		ARG 3 toBeFilled
+	METHOD method_898 fillListwithEntitiesByClass (Ljava/lang/Class;Lnet/minecraft/class_140;Ljava/util/List;)V
+		ARG 2 box
+		ARG 3 toBeFilled
+	METHOD method_899 shouldSave (Z)Z
+		ARG 1 saveEntities
+	METHOD method_901 getTopY (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD method_902 getBlockMeta (III)I
+	METHOD method_903 setBlockMeta (IIII)V
+	METHOD method_904 removeEntity (Lnet/minecraft/class_144;)V
+		ARG 1 entity
+	METHOD method_905 addEntities ()V
+	METHOD method_907 isPositionValid (III)Z
+	METHOD method_908 getLightLevel (IIII)I
+	METHOD method_909 removeEntities ()V
+	METHOD method_910 getTileEntity (III)Lnet/minecraft/class_40;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_911 markDirty ()V
+	METHOD method_912 removeTileEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

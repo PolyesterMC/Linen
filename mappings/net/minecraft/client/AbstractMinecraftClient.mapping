@@ -47,6 +47,7 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 		ARG 1 width
 		ARG 2 height
 	METHOD method_70 showScreen (Lnet/minecraft/class_101;)V
+		ARG 1 screen
 	METHOD method_71 quitWorld (Lnet/minecraft/class_159;)V
 		ARG 1 dummy
 	METHOD method_72 joinWorld (Lnet/minecraft/class_159;Ljava/lang/String;)V
@@ -75,4 +76,3 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	METHOD method_92 getParticleDebugString ()Ljava/lang/String;
 	METHOD method_93 killPlayer ()V
 	METHOD method_95 getOperatingSystem ()Lnet/minecraft/class_46;
-	METHOD run ()V

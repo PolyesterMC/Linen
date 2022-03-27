@@ -1,0 +1,41 @@
+CLASS net/minecraft/class_45 net/minecraft/util/math/Vec3d
+	FIELD field_147 x D
+	FIELD field_148 y D
+	FIELD field_149 z D
+	FIELD field_150 positions Ljava/util/List;
+	FIELD field_151 positionsIndex I
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_140 resetPositionsIndex ()V
+	METHOD method_141 of (DDD)Lnet/minecraft/class_45;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD method_143 substract (Lnet/minecraft/class_45;)Lnet/minecraft/class_45;
+		ARG 1 vec
+	METHOD method_145 normalize ()Lnet/minecraft/class_45;
+	METHOD method_146 addToPositions (DDD)Lnet/minecraft/class_45;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD method_148 (Lnet/minecraft/class_45;)Lnet/minecraft/class_45;
+		ARG 1 vec
+	METHOD method_150 length ()D
+	METHOD method_151 add (DDD)Lnet/minecraft/class_45;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_152 distanceTo (Lnet/minecraft/class_45;)D
+		ARG 1 vec
+	METHOD method_154 squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_155 squaredDistanceTo (Lnet/minecraft/class_45;)D
+		ARG 1 vec
+	METHOD method_156 setPos (DDD)Lnet/minecraft/class_45;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

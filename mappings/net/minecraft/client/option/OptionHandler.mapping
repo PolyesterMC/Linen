@@ -1,0 +1,32 @@
+CLASS net/minecraft/class_269 net/minecraft/client/option/OptionHandler
+	FIELD field_1056 difficulties [Ljava/lang/String;
+	FIELD field_1057 optionsFile Ljava/io/File;
+	FIELD field_1058 isMusicOn Z
+	FIELD field_1059 isSoundOn Z
+	FIELD field_1060 shouldInvertYMouse Z
+	FIELD field_1061 showFrameRate Z
+	FIELD field_1062 viewDistance I
+	FIELD field_1063 bobView Z
+	FIELD field_1064 showAnaglyph3d Z
+	FIELD field_1065 shouldLimitFramerate Z
+	FIELD field_1066 fancyGraphics Z
+	FIELD field_1067 forwardKeybind Lnet/minecraft/class_63;
+	FIELD field_1068 leftKeybind Lnet/minecraft/class_63;
+	FIELD field_1069 backKeybind Lnet/minecraft/class_63;
+	FIELD field_1070 rightKeybind Lnet/minecraft/class_63;
+	FIELD field_1071 jumpKeybind Lnet/minecraft/class_63;
+	FIELD field_1072 inventoryKeybind Lnet/minecraft/class_63;
+	FIELD field_1073 dropKeybind Lnet/minecraft/class_63;
+	FIELD field_1074 chatKeyind Lnet/minecraft/class_63;
+	FIELD field_1075 toggleFogKeybind Lnet/minecraft/class_63;
+	FIELD field_1076 saveLocationKeybind Lnet/minecraft/class_63;
+	FIELD field_1077 loadLocationKeybind Lnet/minecraft/class_63;
+	FIELD field_1078 keybinds [Lnet/minecraft/class_63;
+	FIELD field_1079 client Lnet/minecraft/class_25;
+	FIELD field_1080 I
+	FIELD field_1081 difficulty I
+	METHOD <init> (Lnet/minecraft/class_25;Ljava/io/File;)V
+		ARG 1 client
+		ARG 2 optionsFile
+	METHOD method_830 loadOptions ()V
+	METHOD method_833 saveOptions ()V

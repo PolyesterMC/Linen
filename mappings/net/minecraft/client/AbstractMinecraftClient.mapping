@@ -1,0 +1,26 @@
+CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
+	FIELD field_102 optionHandler Lnet/minecraft/class_269;
+	FIELD field_58 gameDirectory Ljava/io/File;
+	FIELD field_61 isRunning Z
+	FIELD field_72 screenWidth I
+	FIELD field_73 screenHeight I
+	FIELD field_78 isFullscreen Z
+	FIELD field_80 width I
+	FIELD field_81 height I
+	FIELD field_88 minecraftCanvas Ljava/awt/Canvas;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 minecraftComponent
+		ARG 2 minecraftCanvas
+		ARG 3 minecraftApplet
+		ARG 4 width
+		ARG 5 height
+		ARG 6 isFullscreen
+	METHOD method_65 init ()V
+	METHOD method_73 showCrashPanel (Lnet/minecraft/class_175;)V
+		ARG 1 error
+	METHOD method_77 getGameDirectory ()Ljava/io/File;
+	METHOD method_79 stopClient ()V
+	METHOD method_81 stop ()V
+	METHOD method_86 toggleFullscreen ()V
+	METHOD method_95 getOperatingSystem ()Lnet/minecraft/class_46;
+	METHOD run start ()V

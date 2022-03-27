@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_175 net/minecraft/util/error/Error
+	FIELD field_615 errorMessage Ljava/lang/String;
+	FIELD field_616 errorType Ljava/lang/Throwable;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 errorMessage
+		ARG 2 errorType

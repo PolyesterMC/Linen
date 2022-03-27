@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_311 net/minecraft/client/MinecraftCanvas
+	FIELD field_1299 minecraftApplet Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;)V
+		ARG 1 minecraftApplet

@@ -1,5 +1,9 @@
-CLASS net/minecraft/class_262
+CLASS net/minecraft/class_262 net/minecraft/world/WorldAccess
 	METHOD method_818 getBlockAtPosition (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_819 getTileEntity (III)Lnet/minecraft/class_40;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

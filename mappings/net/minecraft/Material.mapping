@@ -1,2 +1,11 @@
 CLASS net/minecraft/class_293 net/minecraft/Material
 	FIELD field_1172 UNKNOWN Lnet/minecraft/class_293;
+	FIELD field_1173 DIRT Lnet/minecraft/class_293;
+	FIELD field_1174 WOOD Lnet/minecraft/class_293;
+	FIELD field_1175 STONE Lnet/minecraft/class_293;
+	FIELD field_1177 WATER Lnet/minecraft/class_293;
+	FIELD field_1178 LAVA Lnet/minecraft/class_293;
+	FIELD field_1179 LEAVES Lnet/minecraft/class_293;
+	FIELD field_1181 CHEESE Lnet/minecraft/class_293;
+	FIELD field_1190 GRASS Lnet/minecraft/class_293;
+	METHOD method_915 isSolid ()Z

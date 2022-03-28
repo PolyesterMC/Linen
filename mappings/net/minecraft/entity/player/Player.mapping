@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_191 net/minecraft/entity/player/Player
+	METHOD method_604 openFurnace (Lnet/minecraft/class_138;)V
 	METHOD method_608 throwStack (Lnet/minecraft/class_236;Z)V
+	METHOD method_612 canHarvest (Lnet/minecraft/class_201;)Z

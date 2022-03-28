@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_186 net/minecraft/item/Item
+	FIELD field_664 id I
+	FIELD field_681 FLINT Lnet/minecraft/class_186;
+	FIELD field_703 COAL Lnet/minecraft/class_186;
+	FIELD field_704 DIAMOND Lnet/minecraft/class_186;

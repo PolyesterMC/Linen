@@ -1,1 +1,2 @@
-CLASS net/minecraft/class_240 net/minecraft/block/TileEntityBlock
+CLASS net/minecraft/class_125 net/minecraft/block/TileEntityBlock
+	METHOD method_344 createTileEntity ()Lnet/minecraft/class_40;

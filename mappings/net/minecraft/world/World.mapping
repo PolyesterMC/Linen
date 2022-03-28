@@ -57,6 +57,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 4 x2
 		ARG 5 y2
 		ARG 6 z2
+	METHOD method_465 setTileEntity (IIILnet/minecraft/class_40;)V
 	METHOD method_466 getBrightness (IIIZ)I
 		ARG 1 x
 		ARG 2 y
@@ -173,6 +174,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 	METHOD method_540 saveWorld ()V
+	METHOD method_541 removeTileEntity (III)V
 	METHOD method_542 onLightUpdate (IIII)V
 	METHOD method_545 markDirty (III)V
 		ARG 1 x

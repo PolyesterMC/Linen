@@ -1,4 +1,9 @@
 CLASS net/minecraft/class_257 net/minecraft/client/gui/Button
 	FIELD field_1028 id I
 	FIELD field_1029 canClick Z
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 text
 	METHOD method_815 render (Lnet/minecraft/class_25;II)V

@@ -1,7 +1,27 @@
 CLASS net/minecraft/class_236 net/minecraft/item/ItemStack
 	FIELD field_989 count I
-	FIELD field_991 outputSlot I
+	FIELD field_991 itemId I
+	FIELD field_992 id I
 	METHOD method_768 asItem ()Lnet/minecraft/class_186;
 	METHOD method_769 split (I)Lnet/minecraft/class_236;
-	METHOD method_771 write (Lnet/minecraft/class_8;)Lnet/minecraft/class_8;
+	METHOD method_770 useAsTool (IIII)V
+	METHOD method_771 serialize (Lnet/minecraft/class_8;)Lnet/minecraft/class_8;
+		ARG 1 tag
+	METHOD method_772 getDamagePower (Lnet/minecraft/class_144;)I
+		ARG 1 entity
+	METHOD method_773 useAndUpdate (Lnet/minecraft/class_159;Lnet/minecraft/class_191;)Lnet/minecraft/class_236;
+		ARG 1 world
+		ARG 2 plyaer
+	METHOD method_774 onInteractPlayer (Lnet/minecraft/class_191;)V
+		ARG 1 player
+	METHOD method_775 useonBlock (Lnet/minecraft/class_191;Lnet/minecraft/class_159;IIII)Z
+	METHOD method_776 getEfficiency (Lnet/minecraft/class_201;)F
+	METHOD method_777 useAsWeapon (Lnet/minecraft/class_295;)V
+	METHOD method_778 getTextureIndex ()I
 	METHOD method_779 reduceDurability (I)V
+	METHOD method_780 deserialize (Lnet/minecraft/class_8;)V
+		ARG 1 tag
+	METHOD method_781 canMineBlock (Lnet/minecraft/class_201;)Z
+		ARG 1 block
+	METHOD method_783 getMaxCount ()I
+	METHOD method_784 getMaxDamage ()I

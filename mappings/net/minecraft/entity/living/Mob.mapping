@@ -4,6 +4,7 @@ CLASS net/minecraft/class_225 net/minecraft/entity/living/Mob
 	METHOD method_729 getOffsetLightBrightness (III)F
 		ARG 1 x
 		ARG 2 y
+		ARG 3 z
 	METHOD method_730 isValidTarget (Lnet/minecraft/class_144;)Z
 		ARG 1 entity
 	METHOD method_731 attack (Lnet/minecraft/class_144;F)V

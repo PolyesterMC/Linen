@@ -166,6 +166,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 id
+	METHOD method_532 floor (III)Z
 	METHOD method_534 getTickableEntities ()Ljava/util/List;
 	METHOD method_535 getBrightness (III)I
 		ARG 1 x

@@ -72,7 +72,8 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	METHOD method_426 initPlayer ()V
 	METHOD method_427 markForRemoval ()V
 	METHOD method_428 tick ()V
-	METHOD method_429 markForRemovalIntern ()V
+	METHOD method_429 recieveDamage ()V
 	METHOD method_432 getVerticalOffset ()F
+	METHOD method_435 getTextureLocation ()Ljava/lang/String;
 	METHOD method_437 isAlive ()Z
 	METHOD method_438 isInBlock ()Z

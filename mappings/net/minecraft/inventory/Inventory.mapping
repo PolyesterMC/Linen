@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_298 net/minecraft/inventory/Inventory
+	METHOD method_133 markDirty ()V
 	METHOD method_938 getSize ()I
 	METHOD method_939 getItemStackById (I)Lnet/minecraft/class_236;
 		ARG 1 id

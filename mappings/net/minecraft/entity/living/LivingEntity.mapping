@@ -1,5 +1,22 @@
 CLASS net/minecraft/class_295 net/minecraft/entity/living/LivingEntity
+	FIELD field_1194 attackTime I
+	FIELD field_1202 idleSoundTicks I
+	FIELD field_1204 outOfCombatTime I
+	FIELD field_1205 leftwardVelocity F
+	FIELD field_1206 forwardVelocity F
+	FIELD field_1207 field_1205 F
+	FIELD field_1208 isJumping Z
+	FIELD field_1215 bodyYaw F
+	FIELD field_1216 bodyPitch F
+	FIELD field_1222 textureLocation Ljava/lang/String;
+	FIELD field_1229 health I
+	FIELD field_1231 hurtTime I
+	FIELD field_1234 deathTime I
 	METHOD method_924 heal (I)V
+	METHOD method_926 getIdleSound ()Ljava/lang/String;
+	METHOD method_929 getHurtSound ()Ljava/lang/String;
+	METHOD method_930 getDeathSound ()Ljava/lang/String;
+	METHOD method_932 getDropItem ()I
 	METHOD method_933 updateMovements ()V
 	METHOD method_934 livingTick ()V
 	METHOD method_935 onDeath (Lnet/minecraft/class_144;)V

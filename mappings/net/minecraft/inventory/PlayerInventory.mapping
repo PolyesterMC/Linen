@@ -1,5 +1,25 @@
 CLASS net/minecraft/class_233 net/minecraft/inventory/PlayerInventory
+	FIELD field_979 items [Lnet/minecraft/class_236;
+	FIELD field_980 armor [Lnet/minecraft/class_236;
 	FIELD field_981 selectedSlot I
+	FIELD field_982 player Lnet/minecraft/class_191;
+	METHOD <init> (Lnet/minecraft/class_191;)V
+		ARG 1 player
+	METHOD method_746 selectIfOnHotbar (IZ)V
+		ARG 1 id
+		ARG 2 bl
+	METHOD method_747 (Lnet/minecraft/class_144;)I
+		ARG 1 entity
+	METHOD method_754 (Lnet/minecraft/class_201;)Z
+		ARG 1 block
 	METHOD method_755 containsAndConsume (I)Z
+	METHOD method_756 getArmorById (I)Lnet/minecraft/class_236;
+		ARG 1 armorSlot
+	METHOD method_757 getHeldItem ()Lnet/minecraft/class_236;
+	METHOD method_760 getSlotByItemId (I)I
+		ARG 1 id
 	METHOD method_761 calculateDurability ()I
+	METHOD method_762 pickBlock (I)I
+		ARG 1 id
 	METHOD method_763 dropItems ()V
+	METHOD method_764 getFirstEmptySlotId ()I

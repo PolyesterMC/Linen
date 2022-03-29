@@ -1,1 +1,15 @@
 CLASS net/minecraft/class_138 net/minecraft/block/tile/Furnace
+	FIELD field_428 items [Lnet/minecraft/class_236;
+	FIELD field_429 burnTime I
+	FIELD field_430 fuelTime I
+	FIELD field_431 cookTIme I
+	METHOD method_352 getBurnTime (Lnet/minecraft/class_236;)I
+		ARG 1 stack
+	METHOD method_353 getScaledCookTime (I)I
+		ARG 1 value
+	METHOD method_354 getScaledBurnTime (I)I
+		ARG 1 value
+	METHOD method_355 getSmeltedId (I)I
+		ARG 1 id
+	METHOD method_356 isBurning ()Z
+	METHOD method_358 shouldContinueSmelting ()Z

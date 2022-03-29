@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_233 net/minecraft/inventory/PlayerInventory
+	FIELD field_981 selectedSlot I
+	METHOD method_755 containsAndConsume (I)Z
+	METHOD method_761 calculateDurability ()I
+	METHOD method_763 dropItems ()V

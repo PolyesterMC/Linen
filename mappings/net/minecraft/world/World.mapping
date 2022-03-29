@@ -83,6 +83,8 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 4 z
 	METHOD method_477 spawnEntity (Lnet/minecraft/class_144;)V
 		ARG 1 entity
+	METHOD method_478 squaredDistanceTo (Lnet/minecraft/class_144;D)Lnet/minecraft/class_191;
+	METHOD method_481 getBlocksInBox (Lnet/minecraft/class_144;Lnet/minecraft/class_140;)Ljava/util/List;
 	METHOD method_483 playSound (Lnet/minecraft/class_144;Ljava/lang/String;FF)V
 		ARG 1 entity
 		ARG 2 soundId

@@ -19,3 +19,4 @@ CLASS net/minecraft/class_262 net/minecraft/world/WorldAccess
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_823 isFullBlock (III)Z

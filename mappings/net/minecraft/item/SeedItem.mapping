@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_111 net/minecraft/item/SeedItem
+	FIELD field_367 blockId I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 blockId

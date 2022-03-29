@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_64 net/minecraft/item/utility/Sword
+	FIELD field_214 damagePower I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 maxDamage

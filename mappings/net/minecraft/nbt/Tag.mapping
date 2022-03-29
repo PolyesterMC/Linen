@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_224 net/minecraft/nbt/Tag
+	METHOD method_722 read (Ljava/io/DataInput;)V

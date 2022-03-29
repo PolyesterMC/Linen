@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_32 net/minecraft/item/BucketItem
+	FIELD field_121 bucketType I
+		COMMENT bucketType refers to the id of the block of which it is holding (If it is a water bucket, then it is the id for water)
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 bucketType

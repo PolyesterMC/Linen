@@ -1,8 +1,11 @@
 CLASS net/minecraft/class_8 net/minecraft/nbt/CompoundTag
 	FIELD field_5 data Ljava/util/Map;
+	METHOD method_10 putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_11 putShort (Ljava/lang/String;S)V
 	METHOD method_12 putBoolean (Ljava/lang/String;Z)V
 		ARG 1 key
 		ARG 2 bool
+	METHOD method_13 putByteArray (Ljava/lang/String;[B)V
 	METHOD method_14 getByte (Ljava/lang/String;)B
 		ARG 1 key
 	METHOD method_15 getShort (Ljava/lang/String;)S
@@ -13,6 +16,7 @@ CLASS net/minecraft/class_8 net/minecraft/nbt/CompoundTag
 	METHOD method_19 getString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_20 getByteArray (Ljava/lang/String;)[B
 	METHOD method_21 getCompound (Ljava/lang/String;)Lnet/minecraft/class_8;
+	METHOD method_22 getList (Ljava/lang/String;)Lnet/minecraft/class_145;
 	METHOD method_23 hasKey (Ljava/lang/String;)Z
 		ARG 1 key
 	METHOD method_3 getBoolean (Ljava/lang/String;)Z
@@ -20,5 +24,8 @@ CLASS net/minecraft/class_8 net/minecraft/nbt/CompoundTag
 	METHOD method_4 putByte (Ljava/lang/String;B)V
 		ARG 1 key
 		ARG 2 b
+	METHOD method_5 putFloat (Ljava/lang/String;F)V
 	METHOD method_6 putInt (Ljava/lang/String;I)V
 	METHOD method_7 putLong (Ljava/lang/String;J)V
+	METHOD method_8 putTag (Ljava/lang/String;Lnet/minecraft/class_8;)V
+	METHOD method_9 put (Ljava/lang/String;Lnet/minecraft/class_224;)V

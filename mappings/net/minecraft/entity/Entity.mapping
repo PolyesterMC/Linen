@@ -1,6 +1,78 @@
 CLASS net/minecraft/class_144 net/minecraft/entity/Entity
+	FIELD field_455 horizontalOffset F
+	FIELD field_456 verticalOffset F
+	FIELD field_460 fallDistance F
+	FIELD field_469 random Ljava/util/Random;
+	FIELD field_472 fireTime I
+	FIELD field_476 airTime I
+	FIELD field_477 skinLocation Ljava/lang/String;
+	FIELD field_485 world Lnet/minecraft/class_159;
+	FIELD field_486 prevX D
+	FIELD field_487 prevY D
+	FIELD field_488 prevZ D
 	FIELD field_489 x D
+	FIELD field_490 y D
 	FIELD field_491 z D
+	FIELD field_492 motionX D
+	FIELD field_493 motionY D
+	FIELD field_494 motionZ D
+	FIELD field_495 yaw F
+	FIELD field_496 pitch F
 	FIELD field_499 boundingBox Lnet/minecraft/class_140;
+	FIELD field_500 onGround Z
+	FIELD field_503 Z
+	FIELD field_504 dead Z
+	FIELD field_505 verticalModifier F
 	METHOD <init> (Lnet/minecraft/class_159;)V
 		ARG 1 world
+	METHOD method_389 setBoundingBoxSpacing (FF)V
+		ARG 1 horizontalOffset
+		ARG 2 verticalOffset
+	METHOD method_391 spawnDroppedItemIntern (IIF)Lnet/minecraft/class_208;
+		ARG 1 itemId
+		ARG 2 count
+		ARG 3 yOffset
+	METHOD method_392 serialize (Lnet/minecraft/class_8;)V
+		ARG 1 tag
+	METHOD method_394 receiveDamage (Lnet/minecraft/class_144;I)Z
+		ARG 1 entity
+		ARG 2 id
+	METHOD method_397 isInsideOf (Lnet/minecraft/class_293;)Z
+		ARG 1 material
+	METHOD method_398 packDoubles ([D)Lnet/minecraft/class_145;
+		ARG 1 doubles
+	METHOD method_399 packFloats ([F)Lnet/minecraft/class_145;
+		ARG 1 floats
+	METHOD method_400 setPosition (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_401 refreshPositionAndAngles (DDDFF)V
+	METHOD method_402 handleFallDistance (F)V
+		ARG 1 fallDistance
+	METHOD method_403 setYawAndPitch (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD method_404 receiveDamage (I)V
+		ARG 1 amount
+	METHOD method_405 spawnDroppedItem (II)Lnet/minecraft/class_208;
+		ARG 1 itemId
+	METHOD method_406 deserialize (Lnet/minecraft/class_8;)V
+		ARG 1 tag
+	METHOD method_407 addToScore (Lnet/minecraft/class_144;I)V
+		ARG 1 entity
+		ARG 2 dscore
+	METHOD method_408 onPlayerInteraction (Lnet/minecraft/class_191;)Z
+		ARG 1 player
+	METHOD method_409 runTick ()V
+	METHOD method_414 move (DDD)V
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD method_426 initPlayer ()V
+	METHOD method_427 markForRemoval ()V
+	METHOD method_428 tick ()V
+	METHOD method_429 markForRemovalIntern ()V
+	METHOD method_432 getVerticalOffset ()F
+	METHOD method_437 isAlive ()Z
+	METHOD method_438 isInBlock ()Z

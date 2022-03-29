@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_154 net/minecraft/item/utility/Axe
+	FIELD field_530 EFFECTIVE_BLOCKS [Lnet/minecraft/class_201;
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 miningLevel

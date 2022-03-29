@@ -1,1 +1,7 @@
 CLASS net/minecraft/class_236 net/minecraft/item/ItemStack
+	FIELD field_989 count I
+	FIELD field_991 outputSlot I
+	METHOD method_768 asItem ()Lnet/minecraft/class_186;
+	METHOD method_769 split (I)Lnet/minecraft/class_236;
+	METHOD method_771 write (Lnet/minecraft/class_8;)Lnet/minecraft/class_8;
+	METHOD method_779 reduceDurability (I)V

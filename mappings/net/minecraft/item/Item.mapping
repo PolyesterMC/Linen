@@ -1,5 +1,118 @@
 CLASS net/minecraft/class_186 net/minecraft/item/Item
+	FIELD field_637 DIAMOND_AXE Lnet/minecraft/class_186;
+	FIELD field_638 STICK Lnet/minecraft/class_186;
+	FIELD field_639 BOWL Lnet/minecraft/class_186;
+	FIELD field_640 MUSHROOM_STEW Lnet/minecraft/class_186;
+	FIELD field_641 GOLD_SWORD Lnet/minecraft/class_186;
+	FIELD field_642 GOLD_SHOVEL Lnet/minecraft/class_186;
+	FIELD field_643 GOLD_PICKAXE Lnet/minecraft/class_186;
+	FIELD field_644 GOLD_AXE Lnet/minecraft/class_186;
+	FIELD field_645 STRING Lnet/minecraft/class_186;
+	FIELD field_646 FEATHER Lnet/minecraft/class_186;
+	FIELD field_647 GUNPOWDER Lnet/minecraft/class_186;
+	FIELD field_648 WOOD_HOE Lnet/minecraft/class_186;
+	FIELD field_649 STONE_HOE Lnet/minecraft/class_186;
+	FIELD field_650 IRON_HOE Lnet/minecraft/class_186;
+	FIELD field_651 DIAMOND_HOE Lnet/minecraft/class_186;
+	FIELD field_652 GOLD_HOE Lnet/minecraft/class_186;
+	FIELD field_653 SEEDS Lnet/minecraft/class_186;
+	FIELD field_654 WHEAT Lnet/minecraft/class_186;
+	FIELD field_655 BREAD Lnet/minecraft/class_186;
+	FIELD field_656 CLOTH_HELMET Lnet/minecraft/class_186;
+	FIELD field_657 CLOTH_CHESTPLATE Lnet/minecraft/class_186;
+	FIELD field_658 CLOTH_LEGGINGS Lnet/minecraft/class_186;
+	FIELD field_659 CLOTH_BOOTS Lnet/minecraft/class_186;
+	FIELD field_660 CHAIN_HELMET Lnet/minecraft/class_186;
+	FIELD field_661 CHAIN_CHESTPLATE Lnet/minecraft/class_186;
+	FIELD field_662 CHAIN_LEGGINGS Lnet/minecraft/class_186;
 	FIELD field_664 id I
+	FIELD field_665 maxCount I
+	FIELD field_666 maxDamage I
+	FIELD field_667 textureIndex I
+	FIELD field_668 CHAIN_BOOTS Lnet/minecraft/class_186;
+	FIELD field_669 IRON_HELMET Lnet/minecraft/class_186;
+	FIELD field_670 IRON_CHESTPLATE Lnet/minecraft/class_186;
+	FIELD field_671 IRON_LEGGINGS Lnet/minecraft/class_186;
+	FIELD field_672 IRON_BOOTS Lnet/minecraft/class_186;
+	FIELD field_673 DIAMOND_HELMET Lnet/minecraft/class_186;
+	FIELD field_674 DIAMOND_CHESTPLATE Lnet/minecraft/class_186;
+	FIELD field_675 DIAMOND_LEGGINGS Lnet/minecraft/class_186;
+	FIELD field_676 DIAMOND_BOOTS Lnet/minecraft/class_186;
+	FIELD field_677 GOLD_HELMET Lnet/minecraft/class_186;
+	FIELD field_678 GOLD_CHESTPLATE Lnet/minecraft/class_186;
+	FIELD field_679 GOLD_LEGGINGS Lnet/minecraft/class_186;
+	FIELD field_680 GOLD_BOOTS Lnet/minecraft/class_186;
 	FIELD field_681 FLINT Lnet/minecraft/class_186;
+	FIELD field_682 RAW_PORKCHOP Lnet/minecraft/class_186;
+	FIELD field_683 COOKED_PORKCHOP Lnet/minecraft/class_186;
+	FIELD field_684 PAINTING Lnet/minecraft/class_186;
+	FIELD field_685 GOLDEN_APPLE Lnet/minecraft/class_186;
+	FIELD field_686 SIGN Lnet/minecraft/class_186;
+	FIELD field_687 DOOR Lnet/minecraft/class_186;
+	FIELD field_688 BUCKET Lnet/minecraft/class_186;
+	FIELD field_689 WATER_BUCKET Lnet/minecraft/class_186;
+	FIELD field_690 LAVA_BUCKET Lnet/minecraft/class_186;
+	FIELD field_691 MINECART Lnet/minecraft/class_186;
+	FIELD field_692 Ice Lnet/minecraft/class_186;
+	FIELD field_693 IRON_DOOR Lnet/minecraft/class_186;
+	FIELD field_694 RANDOM Ljava/util/Random;
+	FIELD field_695 ITEMS [Lnet/minecraft/class_186;
+	FIELD field_696 IRON_SHOVEL Lnet/minecraft/class_186;
+	FIELD field_697 IRON_PICKAXE Lnet/minecraft/class_186;
+	FIELD field_698 IRON_AXE Lnet/minecraft/class_186;
+	FIELD field_699 FLINT_AND_STEEL Lnet/minecraft/class_186;
+	FIELD field_700 APPLE Lnet/minecraft/class_186;
+	FIELD field_701 BOW Lnet/minecraft/class_186;
+	FIELD field_702 ARROW Lnet/minecraft/class_186;
 	FIELD field_703 COAL Lnet/minecraft/class_186;
 	FIELD field_704 DIAMOND Lnet/minecraft/class_186;
+	FIELD field_705 IRON_INGOT Lnet/minecraft/class_186;
+	FIELD field_706 GOLD_INGOT Lnet/minecraft/class_186;
+	FIELD field_707 IRON_SWORD Lnet/minecraft/class_186;
+	FIELD field_708 WOOD_SWORD Lnet/minecraft/class_186;
+	FIELD field_709 WOOD_SHOVEL Lnet/minecraft/class_186;
+	FIELD field_710 WOOD_PICKAXE Lnet/minecraft/class_186;
+	FIELD field_711 WOOD_AXE Lnet/minecraft/class_186;
+	FIELD field_712 STONE_SWORD Lnet/minecraft/class_186;
+	FIELD field_713 STONE_SHOVEL Lnet/minecraft/class_186;
+	FIELD field_714 STONE_PICKAXE Lnet/minecraft/class_186;
+	FIELD field_715 STONE_AXE Lnet/minecraft/class_186;
+	FIELD field_716 DIAMOND_SWORD Lnet/minecraft/class_186;
+	FIELD field_717 DIAMOND_SHOVEL Lnet/minecraft/class_186;
+	FIELD field_718 DIAMOND_PICKAXE Lnet/minecraft/class_186;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD method_590 getMaxCount ()I
+	METHOD method_591 setTextureIndex (I)Lnet/minecraft/class_186;
+		ARG 1 id
+	METHOD method_592 getDamagePower (Lnet/minecraft/class_144;)I
+		ARG 1 entity
+	METHOD method_593 canMine (Lnet/minecraft/class_201;)Z
+		ARG 1 block
+	METHOD method_594 getTextureIndexFromStack (Lnet/minecraft/class_236;)I
+		ARG 1 stack
+	METHOD method_595 useAsTool (Lnet/minecraft/class_236;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 blockId
+	METHOD method_596 useAndUpdate (Lnet/minecraft/class_236;Lnet/minecraft/class_159;Lnet/minecraft/class_191;)Lnet/minecraft/class_236;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD method_597 useOnBlock (Lnet/minecraft/class_236;Lnet/minecraft/class_191;Lnet/minecraft/class_159;IIII)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 blockId
+	METHOD method_598 getEfficiency (Lnet/minecraft/class_236;Lnet/minecraft/class_201;)F
+		ARG 1 stack
+		ARG 2 block
+	METHOD method_599 useAsWeapon (Lnet/minecraft/class_236;Lnet/minecraft/class_295;)V
+		ARG 1 stack
+		ARG 2 attackedEntity
+	METHOD method_600 getMaxDamage ()I

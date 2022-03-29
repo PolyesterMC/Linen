@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_89 net/minecraft/block/tile/MobSpawner
+	FIELD field_268 delay I
+	FIELD field_269 spawnEntity Ljava/lang/String;
+	METHOD method_248 calculateDelay ()V

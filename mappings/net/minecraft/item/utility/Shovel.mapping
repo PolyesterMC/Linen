@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_237 net/minecraft/item/utility/Shovel
+	FIELD field_993 EFFECTIVE_BLOCKS [Lnet/minecraft/class_201;
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 miningLevel

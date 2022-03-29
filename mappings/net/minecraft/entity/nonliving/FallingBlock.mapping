@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_249 net/minecraft/entity/nonliving/FallingBlock
+	FIELD field_1020 tile I
+	METHOD <init> (Lnet/minecraft/class_159;FFFI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 tile
+	METHOD method_811 getWOrld ()Lnet/minecraft/class_159;

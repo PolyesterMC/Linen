@@ -3,3 +3,18 @@ CLASS net/minecraft/class_40 net/minecraft/block/tile/TileEntity
 	FIELD field_137 x I
 	FIELD field_138 y I
 	FIELD field_139 z I
+	FIELD field_140 CLASSES_BY_NAME Ljava/util/Map;
+	FIELD field_141 NAMES_BY_CLASSES Ljava/util/Map;
+	METHOD method_129 fromTag (Lnet/minecraft/class_8;)V
+		ARG 1 tag
+	METHOD method_130 register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 clazz
+		ARG 1 name
+	METHOD method_131 serialize (Lnet/minecraft/class_8;)V
+		ARG 1 tag
+	METHOD method_132 getFromTag (Lnet/minecraft/class_8;)Lnet/minecraft/class_40;
+		ARG 0 tag
+	METHOD method_133 markDirty ()V
+	METHOD method_134 tick ()V
+	METHOD method_135 getTileId ()I
+	METHOD method_136 getBlock ()Lnet/minecraft/class_201;

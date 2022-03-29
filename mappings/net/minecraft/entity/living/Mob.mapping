@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_225 net/minecraft/entity/living/Mob
+	FIELD field_928 workingEntity Lnet/minecraft/class_144;
+	METHOD method_728 findEntity ()Lnet/minecraft/class_144;
+	METHOD method_729 getOffsetLightBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+	METHOD method_730 isValidTarget (Lnet/minecraft/class_144;)Z
+		ARG 1 entity
+	METHOD method_731 attack (Lnet/minecraft/class_144;F)V
+		ARG 1 entity

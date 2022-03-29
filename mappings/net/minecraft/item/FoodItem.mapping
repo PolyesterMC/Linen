@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_299 net/minecraft/item/FoodItem
+	FIELD field_1242 healthValue I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 healthValue

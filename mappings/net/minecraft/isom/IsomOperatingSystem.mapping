@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_46 net/minecraft/isom/IsomOperatingSystem
-	FIELD field_152 LINUX Lnet/minecraft/class_46;
-	FIELD field_153 SOLARIS Lnet/minecraft/class_46;
-	FIELD field_154 WINDOWS Lnet/minecraft/class_46;
-	FIELD field_155 MACOS Lnet/minecraft/class_46;
-	FIELD field_156 UNKNOWN Lnet/minecraft/class_46;

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_46 net/minecraft/isom/OperatingSystemEnum
+	FIELD field_152 LINUX ACC:PUBLIC Lnet/minecraft/class_46;
+	FIELD field_153 SOLARIS ACC:PUBLIC Lnet/minecraft/class_46;
+	FIELD field_154 WINDOWS ACC:PUBLIC Lnet/minecraft/class_46;
+	FIELD field_155 MACOS ACC:PUBLIC Lnet/minecraft/class_46;
+	FIELD field_156 UNKNOWN ACC:PUBLIC Lnet/minecraft/class_46;

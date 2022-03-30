@@ -686,39 +686,39 @@ task decompileCFR(type: JavaExec, dependsOn: "mapNamedJar") {
 		file("namedSrc").deleteDir()
 	}
 }
-
-javadoc {
-	dependsOn genFakeSource
-	dependsOn downloadMcLibs
-	group = "javadoc generation"
-	outputs.upToDateWhen { false }
-	options {
-		source = "8"
-		encoding = 'UTF-8'
-		charSet = 'UTF-8'
-		memberLevel = JavadocMemberLevel.PRIVATE
-		links(
-				'https://guava.dev/releases/21.0/api/docs/',
-				'https://www.javadoc.io/doc/com.google.code.gson/gson/2.8.0/',
-				'https://logging.apache.org/log4j/2.x/log4j-api/apidocs/',
-				// jsr305 need to come before jdk or the anno links are broken
-				'https://www.javadoc.io/doc/com.google.code.findbugs/jsr305/3.0.2/',
-				'https://javadoc.lwjgl.org/',
-				'http://fastutil.di.unimi.it/docs/',
-				'https://commons.apache.org/proper/commons-logging/javadocs/api-1.1.3/',
-				'https://commons.apache.org/proper/commons-lang/javadocs/api-3.5',
-				'https://commons.apache.org/proper/commons-io/javadocs/api-2.5',
-				'https://commons.apache.org/proper/commons-codec/archives/1.10/apidocs',
-				'https://commons.apache.org/proper/commons-compress/javadocs/api-1.8.1/',
-				'https://docs.oracle.com/javase/8/docs/api/'
-				// Need to add loader jd publication for env annotations!
-		)
-		// Disable the crazy super-strict doclint tool in Java 8
-		addStringOption('Xdoclint:none', '-quiet')
-	}
-	source fakeSourceDir
-	classpath = configurations.javadocClasspath.plus downloadMcLibs.outputs.files.asFileTree
-}
+//
+//javadoc {
+//	dependsOn genFakeSource
+//	dependsOn downloadMcLibs
+//	group = "javadoc generation"
+//	outputs.upToDateWhen { false }
+//	options {
+//		source = "8"
+//		encoding = 'UTF-8'
+//		charSet = 'UTF-8'
+//		memberLevel = JavadocMemberLevel.PRIVATE
+//		links(
+//				'https://guava.dev/releases/21.0/api/docs/',
+//				'https://www.javadoc.io/doc/com.google.code.gson/gson/2.8.0/',
+//				'https://logging.apache.org/log4j/2.x/log4j-api/apidocs/',
+//				// jsr305 need to come before jdk or the anno links are broken
+//				'https://www.javadoc.io/doc/com.google.code.findbugs/jsr305/3.0.2/',
+//				'https://javadoc.lwjgl.org/',
+//				'http://fastutil.di.unimi.it/docs/',
+//				'https://commons.apache.org/proper/commons-logging/javadocs/api-1.1.3/',
+//				'https://commons.apache.org/proper/commons-lang/javadocs/api-3.5',
+//				'https://commons.apache.org/proper/commons-io/javadocs/api-2.5',
+//				'https://commons.apache.org/proper/commons-codec/archives/1.10/apidocs',
+//				'https://commons.apache.org/proper/commons-compress/javadocs/api-1.8.1/',
+//				'https://docs.oracle.com/javase/8/docs/api/'
+//				// Need to add loader jd publication for env annotations!
+//		)
+//		// Disable the crazy super-strict doclint tool in Java 8
+//		addStringOption('Xdoclint:none', '-quiet')
+//	}
+//	source fakeSourceDir
+//	classpath = configurations.javadocClasspath.plus downloadMcLibs.outputs.files.asFileTree
+//}
 
 task javadocJar(type: Jar, dependsOn: ["javadoc"]) {
 	group = "javadoc generation"

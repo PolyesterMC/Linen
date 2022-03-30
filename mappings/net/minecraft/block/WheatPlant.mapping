@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_313 net/minecraft/block/WheatPlant
+	METHOD method_973 (Lnet/minecraft/class_159;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -2,7 +2,6 @@
 *-merged.jar
 *-mapped.jar
 *-intermediary.jar
-*-named.jar
 *.DS_Store
 build/
 out/
@@ -14,3 +13,4 @@ namedSrc/
 *.iml
 *.iws
 *.ipr
+

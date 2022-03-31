@@ -1,3 +1,13 @@
 CLASS net/minecraft/class_243 net/minecraft/client/render/TextureManager
+	FIELD field_1003 registeredTextures Ljava/util/HashMap;
+	FIELD field_1005 textures Ljava/nio/IntBuffer;
+	FIELD field_1007 dynamicTextures Ljava/util/List;
+	FIELD field_1009 options Lnet/minecraft/class_269;
 	METHOD method_796 tick ()V
+	METHOD method_799 registerDynamicTexture (Lnet/minecraft/class_23;)V
+		ARG 1 dynamicTexture
 	METHOD method_802 getTextureId (Ljava/lang/String;)I
+		ARG 1 path
+	METHOD method_805 toggleAnaglyph ()V
+	METHOD method_806 bindTexture (I)V
+		ARG 1 textureId

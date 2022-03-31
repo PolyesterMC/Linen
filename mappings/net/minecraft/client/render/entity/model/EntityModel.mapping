@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_260 net/minecraft/client/render/entity/model/EntityModel
+	METHOD method_817 setAngles (FFFFFF)V
+		ARG 1 limbAngle
+		ARG 2 limbDistance

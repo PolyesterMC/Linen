@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_188 net/minecraft/block/Sign
+	FIELD field_720 tileEntityType Ljava/lang/Class;
+	FIELD field_721 dropId I

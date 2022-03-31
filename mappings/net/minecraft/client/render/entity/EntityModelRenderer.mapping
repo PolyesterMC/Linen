@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_196 net/minecraft/client/render/entity/EntityModelRenderer
+	FIELD field_758 adultModel Lnet/minecraft/class_260;
+	FIELD field_759 babyModel Lnet/minecraft/class_260;
+	METHOD <init> (Lnet/minecraft/class_260;F)V
+		ARG 1 model
+		ARG 2 shadowRadius
+	METHOD method_624 setBabyModel (Lnet/minecraft/class_260;)V
+		ARG 1 model
+	METHOD method_627 render (Lnet/minecraft/class_295;F)V
+		ARG 1 entity
+		ARG 2 shadowRadius
+	METHOD method_628 (Lnet/minecraft/class_295;FF)I
+		ARG 1 entity
+	METHOD method_629 renderProperties (Lnet/minecraft/class_295;I)Z
+		ARG 1 entity
+		ARG 2 id

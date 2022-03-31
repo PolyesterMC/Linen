@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_88 net/minecraft/client/render/BlockRenderer
+	FIELD field_264 world Lnet/minecraft/class_262;
+	METHOD <init> (Lnet/minecraft/class_262;)V
+		ARG 1 world

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_312 net/minecraft/inventory/CraftingInventory
+	FIELD field_1300 items [Lnet/minecraft/class_236;
+	FIELD field_1301 slotCount I
+	FIELD field_1302 craftingScreen Lnet/minecraft/class_220;
+	METHOD <init> (Lnet/minecraft/class_220;II)V
+		ARG 1 cs
+		ARG 2 width
+		ARG 3 height

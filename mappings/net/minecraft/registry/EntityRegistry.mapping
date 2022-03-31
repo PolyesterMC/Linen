@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_238 net/minecraft/registry/EntityRegistry
+	METHOD method_787 registerEntity (Ljava/lang/Class;Ljava/lang/String;)V

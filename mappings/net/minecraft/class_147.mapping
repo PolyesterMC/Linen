@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_147
+	METHOD <init> (ILnet/minecraft/class_201;)V
+		ARG 2 block

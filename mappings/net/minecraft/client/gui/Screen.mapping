@@ -3,6 +3,7 @@ CLASS net/minecraft/class_101 net/minecraft/client/gui/Screen
 	FIELD field_310 screenItems Ljava/util/List;
 	FIELD field_311 isPlayerInventory Z
 	FIELD field_312 textRenderer Lnet/minecraft/class_136;
+	METHOD method_266 close ()V
 	METHOD method_267 onKeyPress (CI)V
 		ARG 1 symbol
 		ARG 2 keyCode

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_57 net/minecraft/nbt/IntTag
+	FIELD field_168 data I
+	METHOD <init> (I)V
+		ARG 1 data

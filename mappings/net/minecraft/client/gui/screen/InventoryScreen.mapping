@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_220 net/minecraft/client/gui/screen/InventoryScreen
+	FIELD field_913 pickedUpItemStack Lnet/minecraft/class_236;
+	METHOD method_702 drawBackground (F)V
+		ARG 1 offset
+	METHOD method_705 setCraftingResult (Lnet/minecraft/class_298;)V
+		ARG 1 inventory
+	METHOD method_706 drawTitleText ()V

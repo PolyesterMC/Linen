@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_7
+	METHOD method_2 (Lnet/minecraft/class_159;III)Z
+		ARG 1 world

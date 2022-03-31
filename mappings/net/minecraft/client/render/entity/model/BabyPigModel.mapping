@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_132 net/minecraft/client/render/entity/model/BabyPigModel
+	METHOD <init> (F)V
+		ARG 1 scale

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_156 net/minecraft/client/render/entity/MinecartRenderer
+	FIELD field_532 minecartModel Lnet/minecraft/class_260;

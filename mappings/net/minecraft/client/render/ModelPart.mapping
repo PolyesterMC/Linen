@@ -1,0 +1,24 @@
+CLASS net/minecraft/class_58 net/minecraft/client/render/ModelPart
+	FIELD field_169 pivotX F
+	FIELD field_170 pivotY F
+	FIELD field_171 pivotZ F
+	FIELD field_172 pitch F
+	FIELD field_173 yaw F
+	FIELD field_174 roll F
+	FIELD field_175 isMirrored Z
+	FIELD field_178 contexts [Lnet/minecraft/class_219;
+	FIELD field_179 quads [Lnet/minecraft/class_178;
+	FIELD field_180 textureWidth I
+	FIELD field_181 textureHeight I
+	METHOD <init> (II)V
+		ARG 1 texturedWidth
+		ARG 2 texturedHeight
+	METHOD method_181 setPivot (FFF)V
+	METHOD method_182 addCuboid (FFFIIIF)V
+		ARG 1 posX
+		ARG 2 posY
+		ARG 3 posZ
+		ARG 4 sizeX
+		ARG 5 sizeY
+		ARG 6 sizeZ
+		ARG 7 offset

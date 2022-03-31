@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_277 net/minecraft/client/render/entity/GiantRenderer
+	FIELD field_1117 scale F
+	METHOD <init> (Lnet/minecraft/class_260;FF)V
+		ARG 2 shadowRadius
+		ARG 3 scale

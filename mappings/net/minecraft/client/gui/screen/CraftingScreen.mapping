@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_29 net/minecraft/client/gui/screen/CraftingScreen
+	FIELD field_108 craftingInventory Lnet/minecraft/class_312;
+	FIELD field_109 craftingResult Lnet/minecraft/class_298;
+	METHOD <init> (Lnet/minecraft/class_233;)V
+		ARG 1 playerInventory

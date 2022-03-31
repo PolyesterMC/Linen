@@ -1,2 +1,19 @@
 CLASS net/minecraft/class_224 net/minecraft/nbt/Tag
+	FIELD field_926 name Ljava/lang/String;
+	METHOD method_719 getId ()B
+	METHOD method_720 getTag (B)Lnet/minecraft/class_224;
+		ARG 0 numericType
+	METHOD method_721 save (Lnet/minecraft/class_224;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 dataOutput
 	METHOD method_722 read (Ljava/io/DataInput;)V
+		ARG 1 dataInput
+	METHOD method_723 write (Ljava/io/DataOutput;)V
+		ARG 1 dataOutput
+	METHOD method_724 getTagTypeString (B)Ljava/lang/String;
+		ARG 0 numericType
+	METHOD method_725 load (Ljava/io/DataInput;)Lnet/minecraft/class_224;
+		ARG 0 dataInput
+	METHOD method_726 getName ()Ljava/lang/String;
+	METHOD method_727 setName (Ljava/lang/String;)Lnet/minecraft/class_224;
+		ARG 1 name

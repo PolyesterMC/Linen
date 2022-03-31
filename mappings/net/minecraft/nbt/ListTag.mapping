@@ -1,2 +1,8 @@
 CLASS net/minecraft/class_145 net/minecraft/nbt/ListTag
+	FIELD field_506 data Ljava/util/List;
+	FIELD field_507 listType B
+	METHOD method_439 getDataTagByIndex (I)Lnet/minecraft/class_224;
+		ARG 1 index
 	METHOD method_440 add (Lnet/minecraft/class_224;)V
+		ARG 1 tag
+	METHOD method_441 getSize ()I

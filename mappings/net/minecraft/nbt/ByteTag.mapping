@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_86 net/minecraft/nbt/ByteTag
+	FIELD field_260 data B
+	METHOD <init> (B)V
+		ARG 1 data

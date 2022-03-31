@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_198 net/minecraft/inventory/CraftingResult
+	FIELD field_760 craftingResult [Lnet/minecraft/class_236;

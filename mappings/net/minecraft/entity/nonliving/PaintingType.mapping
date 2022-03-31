@@ -1,0 +1,26 @@
+CLASS net/minecraft/class_231 net/minecraft/entity/nonliving/PaintingType
+	FIELD field_949 KEBAB Lnet/minecraft/class_231;
+	FIELD field_950 AZTEC Lnet/minecraft/class_231;
+	FIELD field_951 ALBAN Lnet/minecraft/class_231;
+	FIELD field_952 AZTEC2 Lnet/minecraft/class_231;
+	FIELD field_953 BOMB Lnet/minecraft/class_231;
+	FIELD field_954 PLANT Lnet/minecraft/class_231;
+	FIELD field_955 WASTELAND Lnet/minecraft/class_231;
+	FIELD field_956 POOL Lnet/minecraft/class_231;
+	FIELD field_957 COURBET Lnet/minecraft/class_231;
+	FIELD field_958 SEA Lnet/minecraft/class_231;
+	FIELD field_959 SUNSET Lnet/minecraft/class_231;
+	FIELD field_960 WANDERER Lnet/minecraft/class_231;
+	FIELD field_961 MATCH Lnet/minecraft/class_231;
+	FIELD field_962 BUST Lnet/minecraft/class_231;
+	FIELD field_963 STAGE Lnet/minecraft/class_231;
+	FIELD field_964 VOID Lnet/minecraft/class_231;
+	FIELD field_965 SKULL_AND_ROSES Lnet/minecraft/class_231;
+	FIELD field_966 FIGHTERS Lnet/minecraft/class_231;
+	FIELD field_967 POINTERS Lnet/minecraft/class_231;
+	FIELD field_968 name Ljava/lang/String;
+	FIELD field_969 width I
+	FIELD field_970 height I
+	FIELD field_971 textureWidth I
+	FIELD field_972 textureHeight I
+	METHOD values ()[Lnet/minecraft/class_231;

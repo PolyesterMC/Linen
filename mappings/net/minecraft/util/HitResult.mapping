@@ -1,5 +1,8 @@
 CLASS net/minecraft/class_212 net/minecraft/util/HitResult
 	FIELD field_891 type I
+	FIELD field_896 pos Lnet/minecraft/class_45;
 	FIELD field_897 target Lnet/minecraft/class_144;
+	METHOD <init> (IIIILnet/minecraft/class_45;)V
+		ARG 5 pos
 	METHOD <init> (Lnet/minecraft/class_144;)V
 		ARG 1 target

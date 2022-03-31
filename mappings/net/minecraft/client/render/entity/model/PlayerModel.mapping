@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_161 net/minecraft/client/render/entity/model/PlayerModel
+	FIELD field_570 head Lnet/minecraft/class_58;
+	FIELD field_571 headwear Lnet/minecraft/class_58;
+	FIELD field_572 body Lnet/minecraft/class_58;
+	FIELD field_573 right_arm Lnet/minecraft/class_58;
+	FIELD field_574 left_arm Lnet/minecraft/class_58;
+	FIELD field_575 right_leg Lnet/minecraft/class_58;
+	FIELD field_576 left_leg Lnet/minecraft/class_58;

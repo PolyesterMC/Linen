@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_309 net/minecraft/nbt/FloatTag
+	FIELD field_1297 data F
+	METHOD <init> (F)V
+		ARG 1 ata

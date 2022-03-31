@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_268 net/minecraft/client/render/entity/SheepRenderer
+	METHOD <init> (Lnet/minecraft/class_260;Lnet/minecraft/class_260;F)V
+		ARG 1 adultModel
+		ARG 2 babyModel

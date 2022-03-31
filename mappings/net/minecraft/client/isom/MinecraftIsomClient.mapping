@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_34 net/minecraft/client/isom/MinecraftIsomClient
+	FIELD field_124 showHelpText Z
+	FIELD field_125 world Lnet/minecraft/class_159;
+	FIELD field_126 minecraftDir Ljava/io/File;
+	FIELD field_127 isRunning Z
+	FIELD field_130 x I
+	FIELD field_131 z I
+	METHOD keyPressed (Ljava/awt/event/KeyEvent;)V
+		ARG 1 keyEvent
+	METHOD keyReleased (Ljava/awt/event/KeyEvent;)V
+	METHOD keyTyped (Ljava/awt/event/KeyEvent;)V
+		ARG 1 keyEvent
+	METHOD method_112 getMinecraftDir ()Ljava/io/File;
+	METHOD method_113 setTimeofDay (I)V
+	METHOD method_115 isRunning (Lnet/minecraft/class_34;)Z
+		ARG 0 client
+	METHOD method_117 getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD method_119 setWorld (Ljava/lang/String;)V

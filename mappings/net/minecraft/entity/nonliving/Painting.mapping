@@ -1,1 +1,12 @@
 CLASS net/minecraft/class_96 net/minecraft/entity/nonliving/Painting
+	FIELD field_292 tileX I
+	FIELD field_293 tiilY I
+	FIELD field_294 direction I
+	FIELD field_295 tileZ I
+	FIELD field_296 paintingType Lnet/minecraft/class_231;
+	METHOD <init> (Lnet/minecraft/class_159;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_257 setDirection (I)V

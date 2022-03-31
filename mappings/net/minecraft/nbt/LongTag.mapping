@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_202 net/minecraft/nbt/LongTag
+	FIELD field_875 data J
+	METHOD <init> (J)V
+		ARG 1 ata

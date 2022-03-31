@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_27 net/minecraft/client/render/entity/PrimedTNTRenderer
+	FIELD field_107 blockRenderer Lnet/minecraft/class_88;

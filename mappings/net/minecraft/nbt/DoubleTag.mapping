@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_155 net/minecraft/nbt/DoubleTag
+	FIELD field_531 data D
+	METHOD <init> (D)V
+		ARG 1 data

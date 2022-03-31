@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_263
+	METHOD method_824 isPosValid (Lnet/minecraft/class_159;III)Z

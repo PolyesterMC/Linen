@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_214 net/minecraft/client/gui/screen/ChestScreen
+	FIELD field_898 playerInventory Lnet/minecraft/class_298;
+	FIELD field_899 chestInventory Lnet/minecraft/class_298;
+	FIELD field_900 rows I
+	METHOD <init> (Lnet/minecraft/class_298;Lnet/minecraft/class_298;)V
+		ARG 1 playerInventory
+		ARG 2 chestInventory

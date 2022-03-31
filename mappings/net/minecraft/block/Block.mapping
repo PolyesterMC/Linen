@@ -15,7 +15,12 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_793 FARMLAND Lnet/minecraft/class_201;
 	FIELD field_794 FURNACE Lnet/minecraft/class_201;
 	FIELD field_795 LIT_FURNACE Lnet/minecraft/class_201;
+	FIELD field_796 SIGN Lnet/minecraft/class_201;
+	FIELD field_797 DOOR Lnet/minecraft/class_201;
 	FIELD field_799 RAIL Lnet/minecraft/class_201;
+	FIELD field_801 MOUNTED_SIGN Lnet/minecraft/class_201;
+	FIELD field_804 IRON_DOOR Lnet/minecraft/class_201;
+	FIELD field_812 ICE Lnet/minecraft/class_201;
 	FIELD field_813 textureIndex I
 	FIELD field_814 id I
 	FIELD field_815 blockHardness F
@@ -37,9 +42,12 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_834 OBSIDIAN Lnet/minecraft/class_201;
 	FIELD field_835 TORCH Lnet/minecraft/class_201;
 	FIELD field_836 FIRE Lnet/minecraft/class_290;
+	FIELD field_837 MOB_SPAWNER Lnet/minecraft/class_201;
 	FIELD field_839 CHEST Lnet/minecraft/class_201;
+	FIELD field_840 SNOW Lnet/minecraft/class_201;
 	FIELD field_841 DIAMOND_ORE Lnet/minecraft/class_201;
 	FIELD field_842 DIAMOND_BLOCK Lnet/minecraft/class_201;
+	FIELD field_843 CRAFTING_TABLE Lnet/minecraft/class_201;
 	FIELD field_844 WHEAT Lnet/minecraft/class_201;
 	FIELD field_845 minZ D
 	FIELD field_846 maxX D

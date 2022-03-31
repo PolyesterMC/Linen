@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
-	FIELD field_100 target Lnet/minecraft/class_161;
-	FIELD field_101 hitResult Lnet/minecraft/class_212;
+	FIELD field_100 playerModel Lnet/minecraft/class_161;
+	FIELD field_101 crosshairTarget Lnet/minecraft/class_212;
 	FIELD field_102 optionHandler Lnet/minecraft/class_269;
 	FIELD field_56 soundHandler Lnet/minecraft/class_289;
 	FIELD field_58 gameDirectory Ljava/io/File;

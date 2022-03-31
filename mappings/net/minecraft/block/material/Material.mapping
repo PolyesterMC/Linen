@@ -15,6 +15,7 @@ CLASS net/minecraft/class_293 net/minecraft/block/material/Material
 	FIELD field_1185 NONSOLID Lnet/minecraft/class_293;
 	FIELD field_1186 GLASS Lnet/minecraft/class_293;
 	FIELD field_1187 TNT Lnet/minecraft/class_293;
+	FIELD field_1189 ICE Lnet/minecraft/class_293;
 	FIELD field_1190 GRASS Lnet/minecraft/class_293;
 	METHOD method_915 isSolid ()Z
 	METHOD method_918 isFluid ()Z

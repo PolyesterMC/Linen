@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_179 net/minecraft/client/gui/DrawableHelper
 	METHOD method_576 drawCenteredText (Lnet/minecraft/class_136;Ljava/lang/String;III)V
+	METHOD method_577 drawTexture (IIIIII)V

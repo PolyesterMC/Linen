@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_124
+	FIELD field_398 EVERYTHING Lnet/minecraft/class_124;
+	FIELD field_399 MOBS Lnet/minecraft/class_124;
+	FIELD field_400 PLAYERS Lnet/minecraft/class_124;

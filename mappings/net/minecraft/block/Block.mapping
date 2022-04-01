@@ -17,6 +17,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_795 LIT_FURNACE Lnet/minecraft/class_201;
 	FIELD field_796 SIGN Lnet/minecraft/class_201;
 	FIELD field_797 DOOR Lnet/minecraft/class_201;
+	FIELD field_798 LADDER Lnet/minecraft/class_201;
 	FIELD field_799 RAIL Lnet/minecraft/class_201;
 	FIELD field_801 MOUNTED_SIGN Lnet/minecraft/class_201;
 	FIELD field_804 IRON_DOOR Lnet/minecraft/class_201;
@@ -27,6 +28,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_816 blockResistance F
 	FIELD field_817 minX D
 	FIELD field_818 minY D
+	FIELD field_820 LIGHT_GRAY_WOOL Lnet/minecraft/class_201;
 	FIELD field_822 DANDELION Lnet/minecraft/class_235;
 	FIELD field_823 ROSE Lnet/minecraft/class_235;
 	FIELD field_824 BROWN_MUSHROOM Lnet/minecraft/class_235;
@@ -43,6 +45,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_835 TORCH Lnet/minecraft/class_201;
 	FIELD field_836 FIRE Lnet/minecraft/class_290;
 	FIELD field_837 MOB_SPAWNER Lnet/minecraft/class_201;
+	FIELD field_838 BOWL Lnet/minecraft/class_201;
 	FIELD field_839 CHEST Lnet/minecraft/class_201;
 	FIELD field_840 SNOW Lnet/minecraft/class_201;
 	FIELD field_841 DIAMOND_ORE Lnet/minecraft/class_201;

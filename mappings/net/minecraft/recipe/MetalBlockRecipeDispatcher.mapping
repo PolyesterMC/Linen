@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_172 net/minecraft/recipe/MetalBlockRecipeDispatcher
+	FIELD field_612 items [[Ljava/lang/Object;
+	METHOD method_572 register (Lnet/minecraft/class_209;)V
+		ARG 1 recipeDispatcher

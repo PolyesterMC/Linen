@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_253 net/minecraft/recipe/WeaponRecipeDispatcher
+	FIELD field_1023 patterns [[Ljava/lang/String;
+	FIELD field_1024 items [[Ljava/lang/Object;
+	METHOD method_813 register (Lnet/minecraft/class_209;)V
+		ARG 1 dispatcher

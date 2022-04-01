@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_250 net/minecraft/recipe/ToolBenchesRecipeDispatcher
+	METHOD method_812 register (Lnet/minecraft/class_209;)V
+		ARG 1 recipeDispatcher

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_270 net/minecraft/recipe/RecipeListSorter
+	FIELD field_1084 dispatcher Lnet/minecraft/class_209;
+	METHOD <init> (Lnet/minecraft/class_209;)V
+		ARG 1 dispatcher
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 shapedRecipe
+		ARG 2 shapedRecipe2

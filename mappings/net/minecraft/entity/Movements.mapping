@@ -1,9 +1,10 @@
 CLASS net/minecraft/class_192 net/minecraft/entity/Movements
 	FIELD field_735 leftwardVelocity F
 	FIELD field_736 forwardVelocity F
+	FIELD field_738 jump Z
 	METHOD method_615 resetMovement ()V
 	METHOD method_616 updateMovementValue (IZ)V
 		ARG 1 keyCode
 		ARG 2 updatedValue
-	METHOD method_617 (Lnet/minecraft/class_191;)V
+	METHOD method_617 updatePlayerMovement (Lnet/minecraft/class_191;)V
 		ARG 1 player

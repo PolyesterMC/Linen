@@ -25,6 +25,7 @@ CLASS net/minecraft/class_186 net/minecraft/item/Item
 	FIELD field_660 CHAIN_HELMET Lnet/minecraft/class_186;
 	FIELD field_661 CHAIN_CHESTPLATE Lnet/minecraft/class_186;
 	FIELD field_662 CHAIN_LEGGINGS Lnet/minecraft/class_186;
+	FIELD field_663 REDSTONE Lnet/minecraft/class_186;
 	FIELD field_664 id I
 	FIELD field_665 maxCount I
 	FIELD field_666 maxDamage I

@@ -1,5 +1,3 @@
-CLASS net/minecraft/class_141 net/minecraft/block/nonsolid/Snow
-	METHOD method_380 (Lnet/minecraft/class_159;III)V
+CLASS net/minecraft/class_7 net/minecraft/block/nonsolid/Snow
+	METHOD method_2 (Lnet/minecraft/class_159;III)Z
 		ARG 1 world
-		ARG 2 x
-		ARG 3 y

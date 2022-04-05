@@ -1,12 +1,17 @@
 CLASS net/minecraft/class_159 net/minecraft/world/World
+	FIELD field_534 cloudColor J
 	FIELD field_535 listeners Ljava/util/List;
 	FIELD field_536 chunkAccess Lnet/minecraft/class_66;
 	FIELD field_537 worldDir Ljava/io/File;
 	FIELD field_538 playerTag Lnet/minecraft/class_8;
+	FIELD field_539 collidingBoxes Ljava/util/ArrayList;
 	FIELD field_543 tickableTileEntities Ljava/util/List;
 	FIELD field_544 time J
 	FIELD field_545 snowCovered Z
 	FIELD field_546 lightOffset I
+	FIELD field_547 updateLCG I
+	FIELD field_548 DIST_HASH_MAGIC I
+	FIELD field_549 editingBlocks Z
 	FIELD field_550 brightnessLevels [F
 	FIELD field_551 players Ljava/util/List;
 	FIELD field_552 difficultyLevel I
@@ -18,10 +23,14 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	FIELD field_558 newWorld Z
 	FIELD field_559 seed J
 	FIELD field_560 diskSize J
+	FIELD field_561 levelName Ljava/lang/String;
 	FIELD field_562 illuminatedAreas Ljava/util/List;
 	FIELD field_563 tickableEntities Ljava/util/List;
-	FIELD field_565 nonSolidTreeset Ljava/util/TreeSet;
-	FIELD field_566 nonSolidHashSet Ljava/util/Set;
+	FIELD field_564 unloadedEntities Ljava/util/List;
+	FIELD field_565 scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD field_566 scheduledTickSet Ljava/util/Set;
+	FIELD field_567 skyColor J
+	FIELD field_568 fogColor J
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
 		ARG 1 mcDir
 		ARG 2 worldName
@@ -29,6 +38,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 1 mcDir
 		ARG 2 worldName
 		ARG 3 seed
+	METHOD method_456 getSquaredDistance (DDDD)Lnet/minecraft/class_191;
 	METHOD method_457 playSound (DDDLjava/lang/String;FF)V
 		ARG 1 x
 		ARG 3 y
@@ -84,6 +94,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_477 spawnEntity (Lnet/minecraft/class_144;)V
 		ARG 1 entity
 	METHOD method_478 squaredDistanceTo (Lnet/minecraft/class_144;D)Lnet/minecraft/class_191;
+	METHOD method_479 createExplosion (Lnet/minecraft/class_144;DDDF)V
 	METHOD method_481 getBlocksInBox (Lnet/minecraft/class_144;Lnet/minecraft/class_140;)Ljava/util/List;
 	METHOD method_483 playSound (Lnet/minecraft/class_144;Ljava/lang/String;FF)V
 		ARG 1 entity
@@ -97,6 +108,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_486 loadLevelProperties (Ljava/io/File;Ljava/lang/String;)Lnet/minecraft/class_8;
 		ARG 0 mcDir
 		ARG 1 name
+	METHOD method_488 getEntitiesInBox (Ljava/lang/Class;Lnet/minecraft/class_140;)Ljava/util/List;
 	METHOD method_489 addParticle (Ljava/lang/String;DDDDDD)V
 		ARG 1 name
 		ARG 2 x
@@ -125,10 +137,12 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 3 z
 		ARG 4 id
 		ARG 5 meta
+	METHOD method_500 markBlocksDirty (IIIIII)V
 	METHOD method_501 removeListener (Lnet/minecraft/class_53;)V
 		ARG 1 worldEventListener
 	METHOD method_504 removePlayer (Lnet/minecraft/class_144;)V
 		ARG 1 player
+	METHOD method_505 getEntitiesExcluding (Lnet/minecraft/class_144;Lnet/minecraft/class_140;)Ljava/util/List;
 	METHOD method_506 deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 		ARG 0 mcDIr
 		ARG 1 worldName
@@ -157,11 +171,12 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_526 getTopBlock (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD method_527 updateNeighbors (IIII)V
 	METHOD method_528 initialize ()V
 	METHOD method_529 isChunkLoaded (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD method_530 (IIII)V
+	METHOD method_530 scheduleBlockUpdate (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -183,3 +198,4 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_547 isBlockGettingIndirectlyPowered (III)Z

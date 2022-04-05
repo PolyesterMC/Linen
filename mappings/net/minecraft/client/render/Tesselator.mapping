@@ -1,3 +1,32 @@
 CLASS net/minecraft/class_10 net/minecraft/client/render/Tesselator
+	FIELD field_10 tryVBO Z
+	FIELD field_11 byteBuffer Ljava/nio/ByteBuffer;
+	FIELD field_12 intBuffer Ljava/nio/IntBuffer;
+	FIELD field_13 floatBuffer Ljava/nio/FloatBuffer;
+	FIELD field_14 rawBuffer [I
+	FIELD field_15 vertexCount I
+	FIELD field_16 textureU D
+	FIELD field_17 textureV D
+	FIELD field_18 color I
+	FIELD field_19 hasColor Z
+	FIELD field_20 hasTexture Z
+	FIELD field_21 hasNormals Z
+	FIELD field_22 rawBufferIndex I
+	FIELD field_23 addedVertices I
+	FIELD field_24 isColorDisabled Z
+	FIELD field_25 drawMode I
+	FIELD field_26 xOffset D
+	FIELD field_27 yOffset D
+	FIELD field_28 zOffset D
+	FIELD field_29 normal I
+	FIELD field_30 isDrawing Z
+	FIELD field_31 useVBO Z
+	FIELD field_32 vertexBuffers Ljava/nio/IntBuffer;
+	FIELD field_33 vboIndex I
+	FIELD field_6 vboCount I
+	FIELD field_7 bufferSize I
 	FIELD field_8 instance Lnet/minecraft/class_10;
+	FIELD field_9 convertQuadsToTriangles Z
+	METHOD <init> (I)V
+		ARG 1 bufferSize
 	METHOD method_37 setColor (I)V

@@ -12,6 +12,11 @@ CLASS net/minecraft/class_295 net/minecraft/entity/living/LivingEntity
 	FIELD field_1229 health I
 	FIELD field_1231 hurtTime I
 	FIELD field_1234 deathTime I
+	METHOD method_919 spawnExplosionParticle ()V
+	METHOD method_923 canSpawnAtPos (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_924 heal (I)V
 	METHOD method_926 getIdleSound ()Ljava/lang/String;
 	METHOD method_929 getHurtSound ()Ljava/lang/String;

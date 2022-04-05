@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_273 net/minecraft/client/gui/screen/EditSignScreen
+	FIELD field_1093 titleText Ljava/lang/String;
+	FIELD field_1094 sign Lnet/minecraft/class_282;
+	FIELD field_1095 updateCounter I
+	FIELD field_1096 lineIndex I
+	METHOD <init> (Lnet/minecraft/class_282;)V
+		ARG 1 sign

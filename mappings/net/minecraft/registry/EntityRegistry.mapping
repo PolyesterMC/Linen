@@ -1,2 +1,10 @@
 CLASS net/minecraft/class_238 net/minecraft/registry/EntityRegistry
+	FIELD field_994 stringToClass Ljava/util/Map;
+	FIELD field_995 classToString Ljava/util/Map;
+	METHOD method_785 fromNbt (Lnet/minecraft/class_8;Lnet/minecraft/class_159;)Lnet/minecraft/class_144;
+		ARG 0 tag
+		ARG 1 world
+	METHOD method_786 getEntityString (Lnet/minecraft/class_144;)Ljava/lang/String;
+		ARG 0 entity
 	METHOD method_787 registerEntity (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD method_788 createEntityByName (Ljava/lang/String;Lnet/minecraft/class_159;)Lnet/minecraft/class_144;

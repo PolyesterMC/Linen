@@ -19,8 +19,17 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_797 DOOR Lnet/minecraft/class_201;
 	FIELD field_798 LADDER Lnet/minecraft/class_201;
 	FIELD field_799 RAIL Lnet/minecraft/class_201;
+	FIELD field_800 STONE_STAIRS Lnet/minecraft/class_201;
 	FIELD field_801 MOUNTED_SIGN Lnet/minecraft/class_201;
+	FIELD field_802 LEVER Lnet/minecraft/class_201;
+	FIELD field_803 STONE_PRESSURE_PLATE Lnet/minecraft/class_201;
 	FIELD field_804 IRON_DOOR Lnet/minecraft/class_201;
+	FIELD field_805 WOOD_PRESSURE_PLATE Lnet/minecraft/class_201;
+	FIELD field_806 REDSTONE_ORE Lnet/minecraft/class_201;
+	FIELD field_807 GLOWING_REDSTONE_ORE Lnet/minecraft/class_201;
+	FIELD field_808 REDSTONE_TORCH Lnet/minecraft/class_201;
+	FIELD field_809 GLOWING_REDSTONE_TORCH Lnet/minecraft/class_201;
+	FIELD field_811 SNOW Lnet/minecraft/class_201;
 	FIELD field_812 ICE Lnet/minecraft/class_201;
 	FIELD field_813 textureIndex I
 	FIELD field_814 id I
@@ -45,9 +54,9 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_835 TORCH Lnet/minecraft/class_201;
 	FIELD field_836 FIRE Lnet/minecraft/class_290;
 	FIELD field_837 MOB_SPAWNER Lnet/minecraft/class_201;
-	FIELD field_838 BOWL Lnet/minecraft/class_201;
+	FIELD field_838 WOOD_STAIR Lnet/minecraft/class_201;
 	FIELD field_839 CHEST Lnet/minecraft/class_201;
-	FIELD field_840 SNOW Lnet/minecraft/class_201;
+	FIELD field_840 REDSTONE_WIRE Lnet/minecraft/class_201;
 	FIELD field_841 DIAMOND_ORE Lnet/minecraft/class_201;
 	FIELD field_842 DIAMOND_BLOCK Lnet/minecraft/class_201;
 	FIELD field_843 CRAFTING_TABLE Lnet/minecraft/class_201;
@@ -99,6 +108,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 6 maxZ
 	METHOD method_640 getTextureBySide (I)I
 		ARG 1 side
+	METHOD method_641 getTexureIdBySideAndMeta (II)I
 	METHOD method_642 getDrop (ILjava/util/Random;)I
 		ARG 1 id
 		ARG 2 rand
@@ -133,8 +143,12 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 4 z
 		ARG 5 pos1
 		ARG 6 pos2
+	METHOD method_651 getCollidingBoundingBoxes (Lnet/minecraft/class_159;IIILnet/minecraft/class_140;Ljava/util/ArrayList;)V
 	METHOD method_652 onLand (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;)V
 		ARG 1 world
+	METHOD method_653 addVelocityToEntity (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;Lnet/minecraft/class_45;)V
+		ARG 1 world
+		ARG 5 entity
 	METHOD method_654 use (Lnet/minecraft/class_159;IIILnet/minecraft/class_191;)Z
 		ARG 1 world
 		ARG 2 x
@@ -184,13 +198,15 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 3 y
 		ARG 4 z
 		ARG 5 side
-	METHOD method_668 useDoor (Lnet/minecraft/class_159;IIILnet/minecraft/class_191;)V
+	METHOD method_667 onEntityCollidedWithBlock (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;)V
+	METHOD method_668 onActivation (Lnet/minecraft/class_159;IIILnet/minecraft/class_191;)V
 	METHOD method_669 randomDisplayTick (Lnet/minecraft/class_159;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 tand
+	METHOD method_670 shouldSideBeRendered (Lnet/minecraft/class_262;IIII)Z
 	METHOD method_671 setTickOnLoad (Z)V
 		ARG 1 isTicking
 	METHOD method_672 isOpaque ()Z
@@ -211,8 +227,18 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_679 isPowering (Lnet/minecraft/class_262;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_680 renderNormalBlock ()Z
 	METHOD method_681 onIgnite (Lnet/minecraft/class_159;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_682 isIndirectlyPowering (Lnet/minecraft/class_159;IIII)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
@@ -223,5 +249,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_686 canProvidePower ()Z
+	METHOD method_687 setBlockBoundsForRender ()V
 	METHOD method_688 isCollidable ()Z
 	METHOD method_689 canBlockGrass ()Z

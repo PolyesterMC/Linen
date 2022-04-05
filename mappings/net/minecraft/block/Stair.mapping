@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_147 net/minecraft/block/Stair
+	FIELD field_512 baseBlock Lnet/minecraft/class_201;
+	METHOD <init> (ILnet/minecraft/class_201;)V
+		ARG 2 block
+	METHOD method_443 updateStairState (Lnet/minecraft/class_159;III)V
+	METHOD method_444 isSolid (Lnet/minecraft/class_159;III)Z
+	METHOD method_445 isStair (Lnet/minecraft/class_159;III)Z

@@ -8,17 +8,19 @@ CLASS net/minecraft/class_233 net/minecraft/inventory/PlayerInventory
 	METHOD method_746 selectIfOnHotbar (IZ)V
 		ARG 1 id
 		ARG 2 bl
-	METHOD method_747 (Lnet/minecraft/class_144;)I
+	METHOD method_747 getDamageToEntity (Lnet/minecraft/class_144;)I
 		ARG 1 entity
-	METHOD method_754 (Lnet/minecraft/class_201;)Z
+	METHOD method_754 canHarvestBlock (Lnet/minecraft/class_201;)Z
 		ARG 1 block
 	METHOD method_755 containsAndConsume (I)Z
 	METHOD method_756 getArmorById (I)Lnet/minecraft/class_236;
 		ARG 1 armorSlot
 	METHOD method_757 getHeldItem ()Lnet/minecraft/class_236;
+	METHOD method_758 damageArmor (I)V
+	METHOD method_759 decrementAnimations ()V
 	METHOD method_760 getSlotByItemId (I)I
 		ARG 1 id
-	METHOD method_761 calculateDurability ()I
+	METHOD method_761 getTotalArmorValue ()I
 	METHOD method_762 pickBlock (I)I
 		ARG 1 id
 	METHOD method_763 dropItems ()V

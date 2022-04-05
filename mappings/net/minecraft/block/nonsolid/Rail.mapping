@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_43 net/minecraft/block/nonsolid/Rail
+	METHOD method_137 refreshShape (Lnet/minecraft/class_159;III)V

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_141 net/minecraft/block/nonsolid/RedstoneWire
+	METHOD method_380 (Lnet/minecraft/class_159;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y

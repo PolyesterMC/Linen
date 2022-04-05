@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_121 net/minecraft/block/tile/ChestBlock
+	FIELD field_388 random Ljava/util/Random;

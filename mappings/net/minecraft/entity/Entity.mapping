@@ -25,6 +25,7 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	FIELD field_505 verticalModifier F
 	METHOD <init> (Lnet/minecraft/class_159;)V
 		ARG 1 world
+	METHOD method_385 updateRidden ()V
 	METHOD method_389 setBoundingBoxSpacing (FF)V
 		ARG 1 horizontalOffset
 		ARG 2 verticalOffset
@@ -37,6 +38,7 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	METHOD method_394 receiveDamage (Lnet/minecraft/class_144;I)Z
 		ARG 1 entity
 		ARG 2 id
+	METHOD method_396 onCollideWithPlayer (Lnet/minecraft/class_191;)V
 	METHOD method_397 isInsideOf (Lnet/minecraft/class_293;)Z
 		ARG 1 material
 	METHOD method_398 packDoubles ([D)Lnet/minecraft/class_145;
@@ -69,6 +71,7 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 		ARG 1 dx
 		ARG 3 dy
 		ARG 5 dz
+	METHOD method_418 fromNbt (Lnet/minecraft/class_8;)V
 	METHOD method_426 initPlayer ()V
 	METHOD method_427 markForRemoval ()V
 	METHOD method_428 tick ()V

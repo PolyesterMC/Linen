@@ -1,6 +1,9 @@
 CLASS net/minecraft/class_191 net/minecraft/entity/player/Player
+	FIELD field_728 unusedCooldown B
 	FIELD field_729 score I
+	FIELD field_730 prevCameraYaw F
 	FIELD field_731 amount I
+	FIELD field_732 cameraYaw F
 	FIELD field_733 username Ljava/lang/String;
 	FIELD field_734 inventory Lnet/minecraft/class_233;
 	METHOD method_394 (Lnet/minecraft/class_144;I)Z
@@ -9,7 +12,7 @@ CLASS net/minecraft/class_191 net/minecraft/entity/player/Player
 	METHOD method_603 getScore ()I
 	METHOD method_604 openFurnaceScreen (Lnet/minecraft/class_138;)V
 		ARG 1 furnace
-	METHOD method_605 (Lnet/minecraft/class_144;)V
+	METHOD method_605 onCollideWithPlayer (Lnet/minecraft/class_144;)V
 		ARG 1 entity
 	METHOD method_607 throwStack (Lnet/minecraft/class_236;)V
 		ARG 1 stack
@@ -24,4 +27,6 @@ CLASS net/minecraft/class_191 net/minecraft/entity/player/Player
 		ARG 1 pickedUpItem
 	METHOD method_612 canHarvest (Lnet/minecraft/class_201;)Z
 		ARG 1 block
+	METHOD method_613 interactWithEntity (Lnet/minecraft/class_144;)V
+		ARG 1 entity
 	METHOD method_614 openCraftingScreen ()V

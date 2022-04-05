@@ -23,5 +23,6 @@ CLASS net/minecraft/class_236 net/minecraft/item/ItemStack
 		ARG 1 tag
 	METHOD method_781 canMineBlock (Lnet/minecraft/class_201;)Z
 		ARG 1 block
+	METHOD method_782 useItemOnEntity (Lnet/minecraft/class_295;)V
 	METHOD method_783 getMaxCount ()I
 	METHOD method_784 getMaxDamage ()I

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_44 net/minecraft/block/RedstoneOre
+	FIELD field_146 isGlowing Z
+	METHOD method_138 startGlowing (Lnet/minecraft/class_159;III)V
+	METHOD method_139 setBlockWithNotify (Lnet/minecraft/class_159;III)V

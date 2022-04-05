@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_282 net/minecraft/block/tile/Sign
 	FIELD field_1120 lines [Ljava/lang/String;
+	FIELD field_1121 lineIndex I

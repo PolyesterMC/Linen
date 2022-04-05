@@ -1,1 +1,7 @@
 CLASS net/minecraft/class_180 net/minecraft/entity/living/Creeper
+	FIELD field_623 fuseDuration I
+	FIELD field_624 explosionState I
+	FIELD field_625 timeSinceIgnited I
+	FIELD field_626 lastActiveTime I
+	METHOD method_579 getCreeperFlashTIme (F)F
+		ARG 1 f1

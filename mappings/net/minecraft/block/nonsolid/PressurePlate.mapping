@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_48 net/minecraft/block/nonsolid/PressurePlate
+	FIELD field_163 triggerMobType Lnet/minecraft/class_124;
+	METHOD method_168 onInteractWithEntity (Lnet/minecraft/class_159;III)V
+		ARG 1 world

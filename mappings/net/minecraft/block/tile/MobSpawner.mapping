@@ -1,4 +1,7 @@
 CLASS net/minecraft/class_89 net/minecraft/block/tile/MobSpawner
 	FIELD field_268 delay I
 	FIELD field_269 spawnEntity Ljava/lang/String;
+	FIELD field_270 yaw D
+	FIELD field_271 prevYaw D
+	METHOD method_247 isPlayerInRange ()Z
 	METHOD method_248 calculateDelay ()V

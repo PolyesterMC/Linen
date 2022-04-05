@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_183 net/minecraft/render/GLAllocation
+	METHOD method_583 createByteBuffer (I)Ljava/nio/ByteBuffer;
+	METHOD method_584 createIntBuffer (I)Ljava/nio/IntBuffer;

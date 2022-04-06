@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_232 net/minecraft/util/MouseHelper
+	FIELD field_974 dx I
+	FIELD field_975 dy I
+	FIELD field_976 windowComponent Ljava/awt/Component;
+	FIELD field_977 mouseCursor Lorg/lwjgl/input/Cursor;
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 window
+	METHOD method_743 setMouseGrabbed ()V
+	METHOD method_744 unGrabMouse ()V
+	METHOD method_745 getXYChange ()V

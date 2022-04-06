@@ -1,0 +1,22 @@
+CLASS net/minecraft/class_105 net/minecraft/client/render/ItemRenderer
+	FIELD field_315 client Lnet/minecraft/class_25;
+	FIELD field_316 renderedItem Lnet/minecraft/class_236;
+	FIELD field_317 equippedProgress F
+	FIELD field_318 prevEquippedProgress F
+	FIELD field_319 swingProgress I
+	FIELD field_320 isSwinging Z
+	FIELD field_321 blockRenderer Lnet/minecraft/class_88;
+	METHOD <init> (Lnet/minecraft/class_25;)V
+		ARG 1 client
+	METHOD method_288 updateItem ()V
+	METHOD method_289 renderInFirstPerson (F)V
+		ARG 1 scale
+	METHOD method_290 renderSuffocating (FI)V
+	METHOD method_291 resetProgress2 ()V
+	METHOD method_292 renderOverlays (F)V
+	METHOD method_293 swingHand ()V
+	METHOD method_294 renderTextureOverlay (F)V
+		ARG 1 scale
+	METHOD method_295 resetProgress ()V
+	METHOD method_296 renderFire (F)V
+		ARG 1 scale

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_91 net/minecraft/render/OpenGlCapsChecker
+	METHOD method_250 checkOcclusion ()Z

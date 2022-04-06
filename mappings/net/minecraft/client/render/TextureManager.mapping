@@ -8,6 +8,7 @@ CLASS net/minecraft/class_243 net/minecraft/client/render/TextureManager
 		ARG 1 dynamicTexture
 	METHOD method_802 getTextureId (Ljava/lang/String;)I
 		ARG 1 path
+	METHOD method_803 getTexturegetTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
 	METHOD method_805 toggleAnaglyph ()V
 	METHOD method_806 bindTexture (I)V
 		ARG 1 textureId

@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_242 net/minecraft/world/PositionByteBuffer
+	FIELD field_1001 data [B
+	METHOD method_793 isValid ()Z
+	METHOD method_794 get (III)I
+	METHOD method_795 set (IIII)V

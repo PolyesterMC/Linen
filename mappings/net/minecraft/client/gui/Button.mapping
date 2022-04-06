@@ -6,4 +6,5 @@ CLASS net/minecraft/class_257 net/minecraft/client/gui/Button
 		ARG 2 x
 		ARG 3 y
 		ARG 4 text
+	METHOD method_814 whenPressed (II)Z
 	METHOD method_815 render (Lnet/minecraft/class_25;II)V

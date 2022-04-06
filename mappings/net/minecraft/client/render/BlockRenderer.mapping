@@ -1,4 +1,60 @@
 CLASS net/minecraft/class_88 net/minecraft/client/render/BlockRenderer
 	FIELD field_264 world Lnet/minecraft/class_262;
+	FIELD field_265 overrideBlockTexture I
+	FIELD field_266 flipTexture Z
+	FIELD field_267 renderAllFaces Z
 	METHOD <init> (Lnet/minecraft/class_262;)V
 		ARG 1 world
+	METHOD method_217 shouldItemBe3d (I)Z
+		ARG 0 id
+	METHOD method_219 renderInInventory (Lnet/minecraft/class_201;)V
+		ARG 1 block
+	METHOD method_220 renderTorchAtAngle (Lnet/minecraft/class_201;DDDDD)V
+	METHOD method_221 renderBottomFace (Lnet/minecraft/class_201;DDDI)V
+	METHOD method_223 renderCrossedSquares (Lnet/minecraft/class_201;IDDD)V
+	METHOD method_224 renderBlockByType (Lnet/minecraft/class_201;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_226 renderBlockUsingTexture (Lnet/minecraft/class_201;IIII)V
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 textureId
+	METHOD method_228 renderTopFace (Lnet/minecraft/class_201;DDDI)V
+	METHOD method_229 renderCropsImpl (Lnet/minecraft/class_201;IDDD)V
+	METHOD method_230 renderTorch (Lnet/minecraft/class_201;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_231 renderEastFace (Lnet/minecraft/class_201;DDDI)V
+	METHOD method_232 renderBlockLever (Lnet/minecraft/class_201;III)Z
+		ARG 1 lever
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_233 renderWestFace (Lnet/minecraft/class_201;DDDI)V
+	METHOD method_234 renderFire (Lnet/minecraft/class_201;III)Z
+		ARG 1 fire
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_235 renderNorthFace (Lnet/minecraft/class_201;DDDI)V
+	METHOD method_236 renderRedstoneWire (Lnet/minecraft/class_201;III)Z
+		ARG 1 wire
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_237 renderSouthFace (Lnet/minecraft/class_201;DDDI)V
+	METHOD method_238 renderRail (Lnet/minecraft/class_201;III)Z
+	METHOD method_239 renderLadder (Lnet/minecraft/class_201;III)Z
+	METHOD method_240 renderReed (Lnet/minecraft/class_201;III)Z
+	METHOD method_241 renderCrops (Lnet/minecraft/class_201;III)Z
+	METHOD method_242 renderFluid (Lnet/minecraft/class_201;III)Z
+	METHOD method_243 renderCubeBlock (Lnet/minecraft/class_201;III)Z
+	METHOD method_244 renderFence (Lnet/minecraft/class_201;III)Z
+	METHOD method_245 renderStairs (Lnet/minecraft/class_201;III)Z
+	METHOD method_246 renderDoor (Lnet/minecraft/class_201;III)Z

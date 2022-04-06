@@ -2,20 +2,31 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	FIELD field_100 playerModel Lnet/minecraft/class_161;
 	FIELD field_101 crosshairTarget Lnet/minecraft/class_212;
 	FIELD field_102 optionHandler Lnet/minecraft/class_269;
+	FIELD field_103 applet Lnet/minecraft/client/MinecraftApplet;
 	FIELD field_56 soundHandler Lnet/minecraft/class_289;
+	FIELD field_57 mouseHelper Lnet/minecraft/class_232;
 	FIELD field_58 gameDirectory Ljava/io/File;
+	FIELD field_59 frameTimes [J
+	FIELD field_60 recordedFrames I
 	FIELD field_61 isRunning Z
+	FIELD field_62 debugString Ljava/lang/String;
+	FIELD field_63 previousFrameTime J
+	FIELD field_64 isFocused Z
 	FIELD field_65 thirdPerson Z
 	FIELD field_66 initTime J
+	FIELD field_67 glCapabilities Lnet/minecraft/class_91;
 	FIELD field_68 ticks Lnet/minecraft/class_61;
 	FIELD field_69 resourceDownloadThread Lnet/minecraft/class_93;
+	FIELD field_70 ticksRan I
 	FIELD field_71 actionDelay I
 	FIELD field_72 screenWidth I
 	FIELD field_73 screenHeight I
 	FIELD field_74 stillWaterTexture Lnet/minecraft/class_227;
 	FIELD field_75 stillLavaTexture Lnet/minecraft/class_60;
 	FIELD field_76 mcDir Ljava/io/File;
+	FIELD field_77 mouseTicksRan I
 	FIELD field_78 isFullscreen Z
+	FIELD field_79 playerController Lnet/minecraft/class_13;
 	FIELD field_80 width I
 	FIELD field_81 height I
 	FIELD field_82 world Lnet/minecraft/class_159;
@@ -25,6 +36,7 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	FIELD field_86 sessionData Lnet/minecraft/class_189;
 	FIELD field_87 host Ljava/lang/String;
 	FIELD field_88 minecraftCanvas Ljava/awt/Canvas;
+	FIELD field_89 appletMode Z
 	FIELD field_90 trackTicks Z
 	FIELD field_91 textureManager Lnet/minecraft/class_243;
 	FIELD field_92 textRenderer Lnet/minecraft/class_136;
@@ -34,6 +46,7 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	FIELD field_96 loadmapUser Ljava/lang/String;
 	FIELD field_97 mapId I
 	FIELD field_98 hudRenderer Lnet/minecraft/class_194;
+	FIELD field_99 skipRenderingWorld Z
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 minecraftComponent
 		ARG 2 minecraftCanvas
@@ -57,6 +70,9 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 		ARG 1 error
 	METHOD method_74 getFileByOS (Ljava/lang/String;)Ljava/io/File;
 		ARG 0 path
+	METHOD method_75 setServer (Ljava/lang/String;I)V
+		ARG 1 host
+		ARG 2 port
 	METHOD method_76 registerSoundFile (Ljava/lang/String;Ljava/io/File;)V
 		ARG 1 s
 		ARG 2 file
@@ -64,6 +80,7 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	METHOD method_78 joinWorld (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD method_79 stopClient ()V
+	METHOD method_80 checkGLError (Ljava/lang/String;)V
 	METHOD method_81 stop ()V
 	METHOD method_82 loadSpawn (Ljava/lang/String;)V
 		ARG 1 contextTitle
@@ -71,8 +88,12 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	METHOD method_85 pause ()V
 	METHOD method_86 toggleFullscreen ()V
 	METHOD method_87 tick ()V
+	METHOD method_88 isMultiplayer ()Z
+	METHOD method_89 getCapabilitiesChecker ()Lnet/minecraft/class_91;
 	METHOD method_90 getChunkDebugString ()Ljava/lang/String;
 	METHOD method_91 getEntityDebugString ()Ljava/lang/String;
 	METHOD method_92 getParticleDebugString ()Ljava/lang/String;
-	METHOD method_93 killPlayer ()V
+	METHOD method_93 respawnPlayer ()V
+	METHOD method_94 loadScreen ()V
 	METHOD method_95 getOperatingSystem ()Lnet/minecraft/class_46;
+	METHOD method_97 onMiddleMouseButton ()V

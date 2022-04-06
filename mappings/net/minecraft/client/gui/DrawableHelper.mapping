@@ -1,3 +1,15 @@
 CLASS net/minecraft/class_179 net/minecraft/client/gui/DrawableHelper
+	FIELD field_622 zLevel F
+	METHOD method_575 drawGradientQuad (IIIIII)V
+		ARG 1 x1
+		ARG 2 y1
+		ARG 3 x2
+		ARG 4 y2
 	METHOD method_576 drawCenteredText (Lnet/minecraft/class_136;Ljava/lang/String;III)V
+		ARG 1 renderer
+		ARG 2 text
+		ARG 3 x
+		ARG 4 y
 	METHOD method_577 drawTexture (IIIIII)V
+	METHOD method_578 drawString (Lnet/minecraft/class_136;Ljava/lang/String;III)V
+		ARG 1 renderer

@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_101 net/minecraft/client/gui/Screen
 	FIELD field_307 client Lnet/minecraft/class_25;
+	FIELD field_308 width I
+	FIELD field_309 height I
 	FIELD field_310 screenItems Ljava/util/List;
 	FIELD field_311 isPlayerInventory Z
 	FIELD field_312 textRenderer Lnet/minecraft/class_136;
@@ -11,10 +13,20 @@ CLASS net/minecraft/class_101 net/minecraft/client/gui/Screen
 		ARG 1 x
 		ARG 2 y
 		ARG 3 delta
+	METHOD method_269 onMouseClick (III)V
 	METHOD method_270 init (Lnet/minecraft/class_25;II)V
+		ARG 1 mc
+		ARG 2 width
+		ARG 3 height
 	METHOD method_271 onButtonClicked (Lnet/minecraft/class_257;)V
 		ARG 1 button
 	METHOD method_272 deleteWorld (ZI)V
 	METHOD method_273 init ()V
+	METHOD method_274 drawBackground (I)V
+	METHOD method_275 onMouseMove (III)V
 	METHOD method_276 tick ()V
-	METHOD method_281 drawBackgroundTexture ()V
+	METHOD method_277 shouldScreenPauseGame ()Z
+	METHOD method_278 handleInput ()V
+	METHOD method_279 handleMouseInput ()V
+	METHOD method_280 handleKeyboardInput ()V
+	METHOD method_281 drawDefaultBackgroundTexture ()V

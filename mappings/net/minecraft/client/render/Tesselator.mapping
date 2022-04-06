@@ -33,6 +33,7 @@ CLASS net/minecraft/class_10 net/minecraft/client/render/Tesselator
 	METHOD method_26 setTexture (DD)V
 		ARG 1 textureU
 		ARG 3 textureV
+	METHOD method_27 addVertex (DDD)V
 	METHOD method_28 addVertexWithUV (DDDDD)V
 	METHOD method_29 setOpaque (FFF)V
 		ARG 1 r

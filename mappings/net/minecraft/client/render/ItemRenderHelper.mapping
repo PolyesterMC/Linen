@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_315 net/minecraft/client/render/ItemRenderHelper
+	FIELD field_1303 colorBuffer Ljava/nio/FloatBuffer;
+	METHOD method_974 disableItemLighting ()V
+	METHOD method_975 setColorBuffer (DDDD)Ljava/nio/FloatBuffer;
+		ARG 0 r
+		ARG 2 g
+		ARG 4 b
+		ARG 6 a
+	METHOD method_976 setColorBuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 0 r
+		ARG 1 g
+		ARG 2 b
+		ARG 3 a
+	METHOD method_977 enableItemLighting ()V

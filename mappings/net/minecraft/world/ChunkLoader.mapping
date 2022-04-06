@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_36 net/minecraft/world/ChunkLoader
+	METHOD method_123 chunkTick ()V
+	METHOD method_124 loadChunk (Lnet/minecraft/class_159;II)Lnet/minecraft/class_291;
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD method_125 saveChunk (Lnet/minecraft/class_159;Lnet/minecraft/class_291;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD method_126 saveExtraData ()V
+	METHOD method_127 saveExtraChunkData (Lnet/minecraft/class_159;Lnet/minecraft/class_291;)V
+		ARG 1 world
+		ARG 2 chunk

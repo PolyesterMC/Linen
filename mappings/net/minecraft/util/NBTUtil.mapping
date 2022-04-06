@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_19 net/minecraft/util/NBTUtil
+	METHOD method_60 writeCompressed (Lnet/minecraft/class_8;Ljava/io/OutputStream;)V
 	METHOD method_62 readCompressed (Ljava/io/InputStream;)Lnet/minecraft/class_8;

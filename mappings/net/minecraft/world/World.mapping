@@ -38,6 +38,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 1 mcDir
 		ARG 2 worldName
 		ARG 3 seed
+	METHOD method_455 genRespawnPosition ()V
 	METHOD method_456 getSquaredDistance (DDDD)Lnet/minecraft/class_191;
 	METHOD method_457 playSound (DDDLjava/lang/String;FF)V
 		ARG 1 x
@@ -91,6 +92,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_473 scheduleLightingUpdate (Lnet/minecraft/class_129;IIIIII)V
 	METHOD method_477 spawnEntity (Lnet/minecraft/class_144;)V
 		ARG 1 entity
 	METHOD method_478 squaredDistanceTo (Lnet/minecraft/class_144;D)Lnet/minecraft/class_191;
@@ -108,6 +110,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_486 loadLevelProperties (Ljava/io/File;Ljava/lang/String;)Lnet/minecraft/class_8;
 		ARG 0 mcDir
 		ARG 1 name
+	METHOD method_487 createClientPlayer (Ljava/lang/Class;)Lnet/minecraft/class_144;
 	METHOD method_488 getEntitiesInBox (Ljava/lang/Class;Lnet/minecraft/class_140;)Ljava/util/List;
 	METHOD method_489 addParticle (Ljava/lang/String;DDDDDD)V
 		ARG 1 name
@@ -120,6 +123,8 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_490 addEntities (Ljava/util/List;)V
 		ARG 1 entities
 	METHOD method_491 save (Lnet/minecraft/class_272;)V
+	METHOD method_493 saveWorld (ZLnet/minecraft/class_272;)V
+		ARG 2 progressUpdate
 	METHOD method_494 recursivelyDelete ([Ljava/io/File;)V
 		ARG 0 inFolder
 	METHOD method_495 shouldBeIgnited ()Z
@@ -148,6 +153,8 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 1 worldName
 	METHOD method_507 getEntities (Ljava/lang/Class;)I
 		ARG 1 entitClass
+	METHOD method_508 addUnloadedEntitiesToList (Ljava/util/List;)V
+		ARG 1 toBeFilled
 	METHOD method_509 tickEntities ()V
 	METHOD method_511 getTopY (II)I
 		ARG 1 x
@@ -171,6 +178,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_522 isTopBlock (II)Z
 		ARG 1 x
 		ARG 2 z
+	METHOD method_523 markForUpdate (IIII)V
 	METHOD method_526 getTopBlock (II)I
 		ARG 1 x
 		ARG 2 z
@@ -190,13 +198,16 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_537 dropOldChunks ()V
 	METHOD method_538 isPositionValid (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_539 isBlockNormalCube (IIII)Z
 	METHOD method_540 saveWorld ()V
 	METHOD method_541 removeTileEntity (III)V
 	METHOD method_542 onLightUpdate (IIII)V
+	METHOD method_544 notifyNeighbors (IIII)V
 	METHOD method_545 markDirty (III)V
 		ARG 1 x
 		ARG 2 y

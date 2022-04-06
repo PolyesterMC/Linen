@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_170 net/minecraft/world/ChunkLoaderImpl
+	FIELD field_606 saveDir Ljava/io/File;
+	FIELD field_607 createIfNeeded Z
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 mcDir
+		ARG 2 needed
+	METHOD method_560 saveChunkToFile (II)Ljava/io/File;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD method_561 fromNbt (Lnet/minecraft/class_159;Lnet/minecraft/class_8;)Lnet/minecraft/class_291;
+		ARG 0 world
+		ARG 1 tag
+	METHOD method_562 toNbt (Lnet/minecraft/class_291;Lnet/minecraft/class_159;Lnet/minecraft/class_8;)V
+		ARG 1 chunk
+		ARG 2 world
+		ARG 3 toBeWritten

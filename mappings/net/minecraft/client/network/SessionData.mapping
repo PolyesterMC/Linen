@@ -1,3 +1,4 @@
 CLASS net/minecraft/class_189 net/minecraft/client/network/SessionData
 	FIELD field_723 blocks Ljava/util/List;
 	FIELD field_724 skinName Ljava/lang/String;
+	FIELD field_726 mpPass Ljava/lang/String;

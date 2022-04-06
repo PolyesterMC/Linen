@@ -35,7 +35,7 @@ def ENV = System.getenv()
 def now = LocalDate.now(ZoneId.of("UTC")).format(DateTimeFormatter.ISO_ORDINAL_DATE).replace('-', 'd').substring(2)
 println("Current version: " + now)
 def build_version = now
-def ordered_version = ".2"
+def ordered_version = ".3"
 
 def linenVersion = "${minecraft_version}+build${ordered_version}"
 
@@ -201,7 +201,10 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 task downloadIntermediary(type: Download) {
 	group = buildMappingGroup
 	def url = "https://raw.githubusercontent.com/PolyesterMC/alpha-intermediary/45cc687bbf77131fcc71faa8e75b84f775b7f619/mappings/a1.0.4.tiny"
-	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
+
+	// school wifi is a treat, change urls when doing actual mappings.
+	def cursed_url = "https://drive.google.com/uc?export=download&id=1Bmjw9q-5r0M58V-UPRqVYcFQ6ISWkn85"
+	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(cursed_url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 

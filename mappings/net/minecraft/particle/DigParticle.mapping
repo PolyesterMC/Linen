@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_83 net/minecraft/particle/DigParticle
+	METHOD <init> (Lnet/minecraft/class_159;DDDDDDLnet/minecraft/class_201;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 motionX
+		ARG 10 motionY
+		ARG 12 motionZ
+		ARG 14 block

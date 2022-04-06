@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_108 net/minecraft/util/math/EntityPath
+	FIELD field_330 pathLength I
+	FIELD field_331 points [Lnet/minecraft/class_94;
+	FIELD field_332 pathIndex I
+	METHOD <init> ([Lnet/minecraft/class_94;)V
+		ARG 1 pathPoints
+	METHOD method_299 incrementPathIndex ()V
+	METHOD method_300 getPos (Lnet/minecraft/class_144;)Lnet/minecraft/class_45;
+		ARG 1 entity
+	METHOD method_301 isFinished ()Z

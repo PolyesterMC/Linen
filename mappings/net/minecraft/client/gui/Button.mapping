@@ -1,6 +1,12 @@
 CLASS net/minecraft/class_257 net/minecraft/client/gui/Button
+	FIELD field_1025 x I
+	FIELD field_1026 y I
+	FIELD field_1027 text Ljava/lang/String;
 	FIELD field_1028 id I
-	FIELD field_1029 canClick Z
+	FIELD field_1029 isClickable Z
+	FIELD field_1030 isVisible Z
+	FIELD field_1031 length I
+	FIELD field_1032 height I
 	METHOD <init> (IIILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 x
@@ -8,3 +14,6 @@ CLASS net/minecraft/class_257 net/minecraft/client/gui/Button
 		ARG 4 text
 	METHOD method_814 whenPressed (II)Z
 	METHOD method_815 render (Lnet/minecraft/class_25;II)V
+		ARG 1 client
+		ARG 2 x
+		ARG 3 y

@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_281 net/minecraft/util/math/Path
+	FIELD field_1118 pathPoints [Lnet/minecraft/class_94;
+	FIELD field_1119 count I
+	METHOD method_853 clearPath ()V
+	METHOD method_854 sortBack (I)V
+	METHOD method_855 addPoint (Lnet/minecraft/class_94;)Lnet/minecraft/class_94;
+		ARG 1 point
+	METHOD method_856 changeDistance (Lnet/minecraft/class_94;F)V
+	METHOD method_857 popQueue ()Lnet/minecraft/class_94;
+	METHOD method_858 sortForward (I)V
+	METHOD method_859 isPathEmpty ()Z

@@ -68,6 +68,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 4 x2
 		ARG 5 y2
 		ARG 6 z2
+	METHOD method_464 canBePlaced (IIIIZ)Z
 	METHOD method_465 setTileEntity (IIILnet/minecraft/class_40;)V
 	METHOD method_466 getBrightness (IIIZ)I
 		ARG 1 x
@@ -80,6 +81,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_468 getHitResultfromPos (Lnet/minecraft/class_45;Lnet/minecraft/class_45;Z)Lnet/minecraft/class_212;
 		ARG 1 pos1
 		ARG 2 pos2
+	METHOD method_469 getExplosionResistance (Lnet/minecraft/class_45;Lnet/minecraft/class_140;)F
 	METHOD method_470 addListener (Lnet/minecraft/class_53;)V
 		ARG 1 worldEventListener
 	METHOD method_471 getLightAtPos (Lnet/minecraft/class_129;III)I
@@ -145,6 +147,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_500 markBlocksDirty (IIIIII)V
 	METHOD method_501 removeListener (Lnet/minecraft/class_53;)V
 		ARG 1 worldEventListener
+	METHOD method_502 setLightValue (Lnet/minecraft/class_129;IIII)V
 	METHOD method_504 removePlayer (Lnet/minecraft/class_144;)V
 		ARG 1 player
 	METHOD method_505 getEntitiesExcluding (Lnet/minecraft/class_144;Lnet/minecraft/class_140;)Ljava/util/List;

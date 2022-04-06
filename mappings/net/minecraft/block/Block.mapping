@@ -66,6 +66,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	FIELD field_847 maxY D
 	FIELD field_848 maxZ D
 	FIELD field_849 stepSound Lnet/minecraft/class_87;
+	FIELD field_850 particleGravity F
 	FIELD field_851 material Lnet/minecraft/class_293;
 	FIELD field_853 POWDER_STEP_SOUND Lnet/minecraft/class_87;
 	FIELD field_854 WOOD_STEP_SOUND Lnet/minecraft/class_87;

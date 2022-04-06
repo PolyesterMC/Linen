@@ -4,3 +4,4 @@ CLASS net/minecraft/class_46 net/minecraft/isom/IsomOperatingSystem
 	FIELD field_154 WINDOWS Lnet/minecraft/class_46;
 	FIELD field_155 MACOS Lnet/minecraft/class_46;
 	FIELD field_156 UNKNOWN Lnet/minecraft/class_46;
+	METHOD values ()[Lnet/minecraft/class_46;

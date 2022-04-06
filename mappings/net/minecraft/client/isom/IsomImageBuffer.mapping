@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_107 net/minecraft/client/isom/IsomImageBuffer
+	FIELD field_322 image Ljava/awt/image/BufferedImage;
+	FIELD field_323 world Lnet/minecraft/class_159;
+	FIELD field_324 x I
+	FIELD field_325 y I
+	FIELD field_326 isRendered Z
+	FIELD field_327 isEmpty Z
+	FIELD field_328 lastVisible I
+	FIELD field_329 addedToRenderQueue Z
+	METHOD <init> (Lnet/minecraft/class_159;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+	METHOD method_297 init (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD method_298 setLevel (Lnet/minecraft/class_159;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y

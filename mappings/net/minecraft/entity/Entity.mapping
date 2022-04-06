@@ -6,6 +6,9 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	FIELD field_472 fireTime I
 	FIELD field_476 airTime I
 	FIELD field_477 skinLocation Ljava/lang/String;
+	FIELD field_482 preventEntitySpawning Z
+	FIELD field_483 passenger Lnet/minecraft/class_144;
+	FIELD field_484 vehicle Lnet/minecraft/class_144;
 	FIELD field_485 world Lnet/minecraft/class_159;
 	FIELD field_486 prevX D
 	FIELD field_487 prevY D
@@ -77,8 +80,18 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 		ARG 3 dy
 		ARG 5 dz
 	METHOD method_415 writeToNbt (Lnet/minecraft/class_8;)V
+	METHOD method_416 distanceTo (Lnet/minecraft/class_144;)F
+		ARG 1 entity
+	METHOD method_417 squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_418 fromNbt (Lnet/minecraft/class_8;)V
 		ARG 1 tag
+	METHOD method_420 distanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_426 initPlayer ()V
 	METHOD method_427 markForRemoval ()V
 	METHOD method_428 tick ()V

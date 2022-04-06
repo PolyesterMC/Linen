@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_259 net/minecraft/particle/Smoke
+	FIELD field_1034 particleScale F

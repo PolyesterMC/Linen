@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_246 net/minecraft/block/LeavesBase
+	FIELD field_1018 graphicsLevel Z
+	METHOD <init> (IILnet/minecraft/class_293;Z)V
+		ARG 3 material

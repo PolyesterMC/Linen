@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_301 net/minecraft/util/math/ChunkCoordinatePair
+	FIELD field_1243 chunkXPos I
+	FIELD field_1244 chunkYPos I
+	METHOD <init> (II)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 equals

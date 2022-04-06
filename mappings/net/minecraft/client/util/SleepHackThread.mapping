@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_174 net/minecraft/client/util/SleepHackThread
+	FIELD field_614 client Lnet/minecraft/class_34;
+	METHOD <init> (Lnet/minecraft/class_34;)V
+		ARG 1 client
+	METHOD run ()V

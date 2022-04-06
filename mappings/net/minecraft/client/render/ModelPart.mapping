@@ -13,6 +13,7 @@ CLASS net/minecraft/class_58 net/minecraft/client/render/ModelPart
 	METHOD <init> (II)V
 		ARG 1 texturedWidth
 		ARG 2 texturedHeight
+	METHOD method_180 render (F)V
 	METHOD method_181 setPivot (FFF)V
 	METHOD method_182 addCuboid (FFFIIIF)V
 		ARG 1 posX

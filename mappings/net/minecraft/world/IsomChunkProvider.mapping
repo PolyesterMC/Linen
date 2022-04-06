@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_153 net/minecraft/world/IsomChunkProvider
+	FIELD field_526 blocks [B
+	FIELD field_527 chunks [Lnet/minecraft/class_291;
+	FIELD field_528 world Lnet/minecraft/class_159;
+	FIELD field_529 chunkLoader Lnet/minecraft/class_36;
+	METHOD <init> (Lnet/minecraft/class_159;Lnet/minecraft/class_36;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+	METHOD method_451 getChunkAt (II)Lnet/minecraft/class_291;
+		ARG 1 chunkX
+		ARG 2 chunkZ

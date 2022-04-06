@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_55 net/minecraft/util/RenderSorter
+	FIELD field_166 toBeSorted Lnet/minecraft/class_191;
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I

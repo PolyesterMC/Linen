@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_17 net/minecraft/world/noise/PerlinNoiseSampler
+	FIELD field_37 x D
+	FIELD field_38 y D
+	FIELD field_39 z D
+	FIELD field_40 permutations [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD method_54 generateNoise (DD)D
+		ARG 1 x
+		ARG 3 z
+	METHOD method_55 generateNoise (DDD)D
+	METHOD method_56 grad (IDDD)D
+	METHOD method_57 populateNoiseArray ([DDDDIIIDDDD)V
+	METHOD method_58 lerp (DDD)D

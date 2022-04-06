@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_177 net/minecraft/inventory/ArmorSlot
+	FIELD field_618 armorType I
+	FIELD field_619 screen Lnet/minecraft/class_182;

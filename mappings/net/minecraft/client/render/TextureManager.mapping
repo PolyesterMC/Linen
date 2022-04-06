@@ -1,14 +1,34 @@
 CLASS net/minecraft/class_243 net/minecraft/client/render/TextureManager
+	FIELD field_1002 useMipmapping Z
 	FIELD field_1003 registeredTextures Ljava/util/HashMap;
-	FIELD field_1005 textures Ljava/nio/IntBuffer;
-	FIELD field_1007 dynamicTextures Ljava/util/List;
+	FIELD field_1004 textureContents Ljava/util/HashMap;
+	FIELD field_1005 singleIntBuffer Ljava/nio/IntBuffer;
+	FIELD field_1006 imageData Ljava/nio/ByteBuffer;
+	FIELD field_1007 texturesList Ljava/util/List;
+	FIELD field_1008 urlToImage Ljava/util/Map;
 	FIELD field_1009 options Lnet/minecraft/class_269;
+	FIELD field_1010 clampTexture Z
 	METHOD method_796 tick ()V
+	METHOD method_797 deleteTexture (I)V
+	METHOD method_798 averageColor (II)I
 	METHOD method_799 registerDynamicTexture (Lnet/minecraft/class_23;)V
 		ARG 1 dynamicTexture
+	METHOD method_800 allocateAndSetupTexture (Ljava/awt/image/BufferedImage;)I
+		ARG 1 image
+	METHOD method_801 setUpTexture (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 image
+		ARG 2 id
 	METHOD method_802 getTextureId (Ljava/lang/String;)I
 		ARG 1 path
 	METHOD method_803 getTexturegetTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD method_804 getImageData (Ljava/lang/String;Lnet/minecraft/class_306;)Lnet/minecraft/class_135;
+		ARG 1 name
+		ARG 2 buffer
 	METHOD method_805 toggleAnaglyph ()V
 	METHOD method_806 bindTexture (I)V
 		ARG 1 textureId
+	METHOD method_807 alphaBlend (II)I
+	METHOD method_808 unwrapImageByColumns (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 image
+	METHOD method_809 deleteImageData (Ljava/lang/String;)V
+		ARG 1 name

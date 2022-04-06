@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_173 net/minecraft/client/util/error/CanvasMojangLogo
+	FIELD field_613 logo Ljava/awt/image/BufferedImage;
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 image

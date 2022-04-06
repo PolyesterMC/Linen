@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_203 net/minecraft/client/gui/LogoEffectRandomizer
+	FIELD field_876 height D
+	FIELD field_877 prevHeight D
+	FIELD field_878 dropSpeed D
+	FIELD field_879 screen Lnet/minecraft/class_296;
+	METHOD method_690 updateLogoEffects ()V

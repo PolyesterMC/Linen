@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_176 net/minecraft/client/isom/IsomWorld
+	FIELD field_617 client Lnet/minecraft/class_34;
+	METHOD <init> (Lnet/minecraft/class_34;Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 client
+		ARG 2 mcDir
+		ARG 3 name

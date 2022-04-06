@@ -1,3 +1,7 @@
 CLASS net/minecraft/class_184 net/minecraft/world/noise/OctaveNoiseSampler
+	FIELD field_634 generatorCollection [Lnet/minecraft/class_17;
+	FIELD field_635 octaves I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
 	METHOD method_586 generateNoiseOctaves (DD)D
 	METHOD method_587 generateNoiseOctaves ([DDDDIIIDDD)[D

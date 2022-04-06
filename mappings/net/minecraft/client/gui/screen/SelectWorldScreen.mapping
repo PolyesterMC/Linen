@@ -3,3 +3,7 @@ CLASS net/minecraft/class_118 net/minecraft/client/gui/screen/SelectWorldScreen
 	FIELD field_379 titleText Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/class_101;)V
 		ARG 1 parent
+	METHOD method_329 selectWorld (I)V
+		ARG 1 worldId
+	METHOD method_330 getSaveName (I)Ljava/lang/String;
+	METHOD method_331 initWidgets ()V

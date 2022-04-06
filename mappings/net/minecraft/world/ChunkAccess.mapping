@@ -4,6 +4,7 @@ CLASS net/minecraft/class_66 net/minecraft/world/ChunkAccess
 		ARG 1 x
 		ARG 2 z
 	METHOD method_204 generateFeatures (Lnet/minecraft/class_66;II)V
+		ARG 1 chunkAccess
 	METHOD method_205 saveChunks (ZLnet/minecraft/class_272;)Z
 		ARG 2 progress
 	METHOD method_206 canWrite ()Z

@@ -1,0 +1,17 @@
+CLASS net/minecraft/class_199 net/minecraft/inventory/Slot
+	FIELD field_761 inventoryScreen Lnet/minecraft/class_220;
+	FIELD field_762 index I
+	FIELD field_763 x I
+	FIELD field_764 y I
+	FIELD field_765 inventory Lnet/minecraft/class_298;
+	METHOD method_630 onPickup ()V
+	METHOD method_631 isHovered (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD method_632 isValid (Lnet/minecraft/class_236;)Z
+		ARG 1 stack
+	METHOD method_633 getIconIndex ()I
+	METHOD method_634 putStack (Lnet/minecraft/class_236;)V
+		ARG 1 itemStack
+	METHOD method_635 getStack ()Lnet/minecraft/class_236;
+	METHOD method_636 onSlotChanged ()V

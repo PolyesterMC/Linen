@@ -1,6 +1,17 @@
 CLASS net/minecraft/class_289 net/minecraft/client/sound/SoundHandler
+	FIELD field_1142 sndSystem Lpaulscode/sound/SoundSystem;
+	FIELD field_1143 soundEffects Lnet/minecraft/class_215;
+	FIELD field_1144 musicTracks Lnet/minecraft/class_215;
+	FIELD field_1145 playedSoundsCount I
+	FIELD field_1146 options Lnet/minecraft/class_269;
+	FIELD field_1147 loaded Z
+	FIELD field_1148 random Ljava/util/Random;
+	METHOD method_871 setListener ()V
 	METHOD method_872 playSound (Ljava/lang/String;FF)V
 	METHOD method_873 playSound (Ljava/lang/String;FFFFF)V
 	METHOD method_874 registerSound (Ljava/lang/String;Ljava/io/File;)V
 	METHOD method_875 loadSoundSettings (Lnet/minecraft/class_269;)V
+	METHOD method_876 setListener (Lnet/minecraft/class_295;F)V
+	METHOD method_877 onMinecraftClose ()V
 	METHOD method_878 registerMusic (Ljava/lang/String;Ljava/io/File;)V
+	METHOD method_879 setLibraries ()V

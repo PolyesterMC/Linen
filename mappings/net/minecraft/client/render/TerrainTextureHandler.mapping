@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_195 net/minecraft/client/render/TerrainTextureHandler
+	FIELD field_751 textureColumns [F
+	FIELD field_752 pixels [I
+	FIELD field_753 zBuffer [I
+	FIELD field_754 waterBuffers [I
+	FIELD field_755 waterBuffer2 [I
+	FIELD field_756 yBuffer [I
+	FIELD field_757 textures [I
+	METHOD method_622 postProcess ()V
+	METHOD method_623 render (Lnet/minecraft/class_107;)V
+		ARG 1 buffer

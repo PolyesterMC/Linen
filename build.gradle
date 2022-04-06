@@ -33,9 +33,9 @@ def minecraft_version = "a1.0.4"
 def ENV = System.getenv()
 
 def now = LocalDate.now(ZoneId.of("UTC")).format(DateTimeFormatter.ISO_ORDINAL_DATE).replace('-', 'd').substring(2)
-println("Current version: " + now)
 def build_version = now
-def ordered_version = ".3"
+def ordered_version = ".4"
+println("Current version: build" + ordered_version)
 
 def linenVersion = "${minecraft_version}+build${ordered_version}"
 
@@ -204,7 +204,7 @@ task downloadIntermediary(type: Download) {
 
 	// school wifi is a treat, change urls when doing actual mappings.
 	def cursed_url = "https://drive.google.com/uc?export=download&id=1Bmjw9q-5r0M58V-UPRqVYcFQ6ISWkn85"
-	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(cursed_url)
+	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 

@@ -30,5 +30,7 @@ CLASS net/minecraft/class_269 net/minecraft/client/option/OptionHandler
 		ARG 1 client
 		ARG 2 optionsFile
 	METHOD method_830 loadOptions ()V
+	METHOD method_831 getKeybindingDescription (I)Ljava/lang/String;
+	METHOD method_832 setKeybind (II)V
 	METHOD method_833 saveOptions ()V
 	METHOD method_835 setOption (II)V

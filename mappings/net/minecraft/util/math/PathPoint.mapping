@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_94 net/minecraft/util/math/PathPoint
+	FIELD field_280 x I
+	FIELD field_281 y I
+	FIELD field_282 z I
+	FIELD field_283 hash I
+	FIELD field_284 index I
+	FIELD field_285 totalPathDistance F
+	FIELD field_286 distanceToNext F
+	FIELD field_287 distanceToTarget F
+	FIELD field_288 prevPoint Lnet/minecraft/class_94;
+	FIELD field_289 isFirst Z
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 point
+	METHOD method_255 isAssigned ()Z
+	METHOD method_256 distanceTo (Lnet/minecraft/class_94;)F
+		ARG 1 point

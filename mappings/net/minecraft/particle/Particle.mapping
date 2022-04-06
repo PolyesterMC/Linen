@@ -17,6 +17,9 @@ CLASS net/minecraft/class_266 net/minecraft/particle/Particle
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
+		ARG 8 motionX
+		ARG 10 motionY
+		ARG 12 motionZ
 	METHOD method_825 render (Lnet/minecraft/class_10;FFFFFF)V
 	METHOD method_826 getFXLayer ()I
 	METHOD method_827 multiplyVelocity (F)Lnet/minecraft/class_266;

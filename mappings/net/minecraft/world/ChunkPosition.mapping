@@ -1,1 +1,10 @@
 CLASS net/minecraft/class_240 net/minecraft/world/ChunkPosition
+	FIELD field_997 x I
+	FIELD field_998 y I
+	FIELD field_999 z I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 pos

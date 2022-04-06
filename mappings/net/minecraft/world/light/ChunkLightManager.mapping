@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_149 net/minecraft/world/light/ChunkLightManager
+	FIELD field_513 skyBlock Lnet/minecraft/class_129;
+	FIELD field_514 x I
+	FIELD field_515 y I
+	FIELD field_516 z I
+	FIELD field_517 maxX I
+	FIELD field_518 maxY I
+	FIELD field_519 maxZ I
+	METHOD <init> (Lnet/minecraft/class_129;IIIIII)V
+		ARG 1 source
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+	METHOD method_447 getLightUpdated (IIIIII)Z
+	METHOD method_448 updateLight (Lnet/minecraft/class_159;)V
+		ARG 1 world

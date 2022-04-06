@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_42 net/minecraft/client/gui/screen/MenuScreen
+	FIELD field_145 tickSinceOpened I

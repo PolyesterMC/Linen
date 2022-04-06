@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_216 net/minecraft/block/Farmland
+	METHOD method_698 areCropsNearby (Lnet/minecraft/class_159;III)Z
+	METHOD method_699 shouldBeIrrigated (Lnet/minecraft/class_159;III)Z

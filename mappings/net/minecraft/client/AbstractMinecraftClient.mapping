@@ -37,7 +37,7 @@ CLASS net/minecraft/class_25 net/minecraft/client/AbstractMinecraftClient
 	FIELD field_87 host Ljava/lang/String;
 	FIELD field_88 minecraftCanvas Ljava/awt/Canvas;
 	FIELD field_89 appletMode Z
-	FIELD field_90 trackTicks Z
+	FIELD field_90 isPaused Z
 	FIELD field_91 textureManager Lnet/minecraft/class_243;
 	FIELD field_92 textRenderer Lnet/minecraft/class_136;
 	FIELD field_93 currentScreen Lnet/minecraft/class_101;

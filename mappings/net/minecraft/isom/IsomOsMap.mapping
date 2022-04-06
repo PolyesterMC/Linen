@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_264 net/minecraft/isom/IsomOsMap
+	FIELD field_1038 operatingSystems [I

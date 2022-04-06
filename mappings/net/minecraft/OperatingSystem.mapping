@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_244 net/minecraft/OperatingSystem
+	FIELD field_1011 LINUX Lnet/minecraft/class_244;
+	FIELD field_1012 SOLARIS Lnet/minecraft/class_244;
+	FIELD field_1013 WINDOWS Lnet/minecraft/class_244;
+	FIELD field_1014 MACOS Lnet/minecraft/class_244;
+	FIELD field_1015 UNKNOWN Lnet/minecraft/class_244;
+	METHOD values ()[Lnet/minecraft/class_244;

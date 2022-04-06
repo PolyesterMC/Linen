@@ -1,0 +1,33 @@
+CLASS net/minecraft/class_171 net/minecraft/util/math/Pathfinder
+	FIELD field_608 worldMap Lnet/minecraft/class_262;
+	FIELD field_609 path Lnet/minecraft/class_281;
+	FIELD field_610 pointMap Ljava/util/Map;
+	FIELD field_611 pathOptions [Lnet/minecraft/class_94;
+	METHOD <init> (Lnet/minecraft/class_262;)V
+		ARG 1 blockAccess
+	METHOD method_563 openPoint (III)Lnet/minecraft/class_94;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_564 createEntityPath (Lnet/minecraft/class_94;Lnet/minecraft/class_94;)Lnet/minecraft/class_108;
+		ARG 1 point1
+		ARG 2 point2
+	METHOD method_565 createEntityPathTo (Lnet/minecraft/class_144;DDDF)Lnet/minecraft/class_108;
+	METHOD method_566 createEntityPathTO (Lnet/minecraft/class_144;IIIF)Lnet/minecraft/class_108;
+		ARG 1 entity
+	METHOD method_567 getVerticalOffset (Lnet/minecraft/class_144;IIILnet/minecraft/class_94;)I
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 point
+	METHOD method_568 getSafePoint (Lnet/minecraft/class_144;IIILnet/minecraft/class_94;I)Lnet/minecraft/class_94;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_569 addToPath (Lnet/minecraft/class_144;Lnet/minecraft/class_94;Lnet/minecraft/class_94;Lnet/minecraft/class_94;F)Lnet/minecraft/class_108;
+	METHOD method_570 createEntityPathTo (Lnet/minecraft/class_144;Lnet/minecraft/class_144;F)Lnet/minecraft/class_108;
+		ARG 1 entity
+		ARG 2 entity2
+	METHOD method_571 findPathOptions (Lnet/minecraft/class_144;Lnet/minecraft/class_94;Lnet/minecraft/class_94;Lnet/minecraft/class_94;F)I

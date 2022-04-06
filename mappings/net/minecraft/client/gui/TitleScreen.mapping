@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_296 net/minecraft/client/gui/TitleScreen
+	FIELD field_1236 logoBlockLayers [Ljava/lang/String;
 	FIELD field_1237 random Ljava/util/Random;
 	FIELD field_1239 sinNum F
 	FIELD field_1240 splashes [Ljava/lang/String;
 	FIELD field_1241 selectedSplash Ljava/lang/String;
+	METHOD method_937 getRandom ()Ljava/util/Random;

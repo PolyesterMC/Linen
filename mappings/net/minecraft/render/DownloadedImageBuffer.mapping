@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_120 net/minecraft/render/DownloadedImageBuffer
+	FIELD field_385 imageData [I
+	FIELD field_386 width I
+	FIELD field_387 height I
+	METHOD method_333 setAreaTransparent (IIII)V
+	METHOD method_334 setAreaOpaque (IIII)V
+	METHOD method_335 hasTransparency (IIII)Z

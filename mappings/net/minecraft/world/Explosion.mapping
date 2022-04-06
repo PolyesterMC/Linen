@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_99 net/minecraft/world/Explosion
+	METHOD method_264 createExplosion (Lnet/minecraft/class_159;Lnet/minecraft/class_144;DDDF)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 power

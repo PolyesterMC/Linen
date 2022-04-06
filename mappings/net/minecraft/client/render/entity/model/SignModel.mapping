@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_109 net/minecraft/client/render/entity/model/SignModel
+	FIELD field_333 signBoard Lnet/minecraft/class_58;
+	FIELD field_334 signStick Lnet/minecraft/class_58;
+	METHOD method_302 renderSign ()V

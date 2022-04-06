@@ -117,3 +117,6 @@ CLASS net/minecraft/class_186 net/minecraft/item/Item
 		ARG 1 stack
 		ARG 2 attackedEntity
 	METHOD method_600 getMaxDamage ()I
+	METHOD method_601 saddleEntity (Lnet/minecraft/class_236;Lnet/minecraft/class_295;)V
+		ARG 1 stack
+		ARG 2 entity

@@ -3,5 +3,6 @@ CLASS net/minecraft/class_230 net/minecraft/util/MathHelper
 	METHOD method_736 sin (F)F
 	METHOD method_738 floor (D)I
 	METHOD method_739 cos (F)F
+	METHOD method_740 sqrt (F)F
 	METHOD method_741 floor (F)I
 	METHOD method_742 abs (F)F

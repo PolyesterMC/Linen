@@ -1,3 +1,10 @@
 CLASS net/minecraft/class_183 net/minecraft/render/GLAllocation
+	FIELD field_632 displayLists Ljava/util/List;
+	FIELD field_633 textureNames Ljava/util/List;
+	METHOD method_580 deleteTexturesAndDisplayLists ()V
+	METHOD method_581 generateDisplayLists (I)I
+	METHOD method_582 generateTextureNames (Ljava/nio/IntBuffer;)V
+		ARG 0 intBuffer
 	METHOD method_583 createByteBuffer (I)Ljava/nio/ByteBuffer;
 	METHOD method_584 createIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD method_585 createFloatBuffer (I)Ljava/nio/FloatBuffer;

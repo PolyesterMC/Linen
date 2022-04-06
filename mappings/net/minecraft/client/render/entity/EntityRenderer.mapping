@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_47 net/minecraft/client/render/entity/EntityRenderer
 	FIELD field_159 shadowRadius F
+	METHOD method_158 renderBox (Lnet/minecraft/class_140;)V
 	METHOD method_161 render (Lnet/minecraft/class_144;DDDFF)V
 		ARG 1 render
 	METHOD method_164 (Ljava/lang/String;)V

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_288 net/minecraft/render/camera/Camera
+	METHOD method_869 setPosition (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_870 isInBoundingBoxInFrustrum (Lnet/minecraft/class_140;)Z
+		ARG 1 box

@@ -158,6 +158,9 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 3 z
 		ARG 4 meta
 	METHOD method_515 getDebugStringT ()Ljava/lang/String;
+	METHOD method_517 getTop (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD method_518 isPositionLoaded (III)Z
 	METHOD method_519 setBlockandUpdate (IIII)Z
 		ARG 1 x

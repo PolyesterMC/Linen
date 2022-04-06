@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_317 net/minecraft/render/camera/NormalizedClippingHelper
+	FIELD field_1310 instance Lnet/minecraft/class_317;
+	FIELD field_1311 projectionMatrixBuffer Ljava/nio/FloatBuffer;
+	FIELD field_1312 modelMatrixBuffer Ljava/nio/FloatBuffer;
+	FIELD field_1313 floatBuffer Ljava/nio/FloatBuffer;
+	METHOD method_978 getInstance ()Lnet/minecraft/class_119;
+	METHOD method_979 normalize ([[FI)V
+		ARG 1 data
+	METHOD method_980 init ()V

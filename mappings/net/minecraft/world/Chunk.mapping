@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_291 net/minecraft/world/Chunk
+	FIELD field_1152 isLit Z
 	FIELD field_1153 blocks [B
 	FIELD field_1155 world Lnet/minecraft/class_159;
 	FIELD field_1156 data Lnet/minecraft/class_242;
@@ -46,6 +47,7 @@ CLASS net/minecraft/class_291 net/minecraft/world/Chunk
 		ARG 3 toBeFilled
 	METHOD method_899 shouldSave (Z)Z
 		ARG 1 saveEntities
+	METHOD method_900 generateHeightMap ()V
 	METHOD method_901 getTopY (II)I
 		ARG 1 x
 		ARG 2 z

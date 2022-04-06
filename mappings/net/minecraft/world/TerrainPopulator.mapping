@@ -1,1 +1,15 @@
 CLASS net/minecraft/class_275 net/minecraft/world/TerrainPopulator
+	FIELD field_1102 unused [[I
+	FIELD field_1103 rand Ljava/util/Random;
+	FIELD field_1111 mobSpawnerNoise Lnet/minecraft/class_184;
+	FIELD field_1112 world Lnet/minecraft/class_159;
+	FIELD field_1113 noiseArray [D
+	FIELD field_1114 sandNoise [D
+	FIELD field_1115 gravelNoise [D
+	FIELD field_1116 stoneNoise [D
+	METHOD method_843 generateTerrain (II[B)V
+	METHOD method_844 generateLargeCave (II[BDDD)V
+	METHOD method_845 generateCave (II[BDDDFFFIID)V
+	METHOD method_846 initializeNoise ([DIIIIII)[D
+	METHOD method_847 replaceSurface (II[B)V
+	METHOD method_848 generateCave (II[B)V

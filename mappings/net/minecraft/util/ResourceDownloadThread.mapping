@@ -1,1 +1,15 @@
 CLASS net/minecraft/class_93 net/minecraft/util/ResourceDownloadThread
+	FIELD field_277 resourcesFolder Ljava/io/File;
+	FIELD field_278 client Lnet/minecraft/class_25;
+	FIELD field_279 isClosing Z
+	METHOD method_251 markClosing ()V
+	METHOD method_252 loadResource (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 file
+		ARG 2 name
+	METHOD method_253 downloadResource (Ljava/net/URL;Ljava/io/File;I)V
+		ARG 1 url
+		ARG 2 file
+	METHOD method_254 downloadAndInstall (Ljava/net/URL;Ljava/lang/String;)V
+		ARG 1 url
+		ARG 2 name
+	METHOD run ()V

@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_303 net/minecraft/world/ClientWorldManager
-	FIELD field_1273 world Lnet/minecraft/class_159;
-	METHOD method_954 reload (Lnet/minecraft/class_159;)V
-	METHOD method_959 getChunkDebugString ()Ljava/lang/String;
-	METHOD method_963 getEntityDebugString ()Ljava/lang/String;

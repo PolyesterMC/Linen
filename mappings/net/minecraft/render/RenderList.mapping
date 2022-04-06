@@ -1,0 +1,24 @@
+CLASS net/minecraft/class_163 net/minecraft/render/RenderList
+	FIELD field_577 posX I
+	FIELD field_578 posY I
+	FIELD field_579 posZ I
+	FIELD field_580 playerX F
+	FIELD field_581 playerY F
+	FIELD field_582 playerZ F
+	FIELD field_583 buffer Ljava/nio/IntBuffer;
+	FIELD field_584 shouldRender Z
+	FIELD field_585 isCached Z
+	METHOD method_548 render ()V
+	METHOD method_549 render (I)V
+	METHOD method_550 isRenderedAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_551 setLocation (IIIDDD)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 playerX
+		ARG 6 playerY
+		ARG 8 playerZ
+	METHOD method_552 reset ()V

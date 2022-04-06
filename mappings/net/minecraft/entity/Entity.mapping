@@ -26,6 +26,7 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	METHOD <init> (Lnet/minecraft/class_159;)V
 		ARG 1 world
 	METHOD method_385 updateRidden ()V
+	METHOD method_388 getBrightness (F)F
 	METHOD method_389 setBoundingBoxSpacing (FF)V
 		ARG 1 horizontalOffset
 		ARG 2 verticalOffset

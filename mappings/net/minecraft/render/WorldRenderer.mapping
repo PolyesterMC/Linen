@@ -1,0 +1,57 @@
+CLASS net/minecraft/class_110 net/minecraft/render/WorldRenderer
+	FIELD field_335 isChunkLit Z
+	FIELD field_336 tileEntityRenderers Ljava/util/List;
+	FIELD field_337 glRenderList I
+	FIELD field_338 tesselator Lnet/minecraft/class_10;
+	FIELD field_339 isInitiated Z
+	FIELD field_340 tileEntities Ljava/util/List;
+	FIELD field_341 world Lnet/minecraft/class_159;
+	FIELD field_342 chunksUpdated I
+	FIELD field_343 x I
+	FIELD field_344 y I
+	FIELD field_345 z I
+	FIELD field_346 width I
+	FIELD field_347 height I
+	FIELD field_348 depth I
+	FIELD field_349 x_minus I
+	FIELD field_350 y_minus I
+	FIELD field_351 z_minus I
+	FIELD field_352 clipX I
+	FIELD field_353 clipY I
+	FIELD field_354 clipZ I
+	FIELD field_355 isInFrustrum Z
+	FIELD field_356 skipRenderPass [Z
+	FIELD field_357 x_plus I
+	FIELD field_358 y_plus I
+	FIELD field_359 z_plus I
+	FIELD field_360 rendererRadius F
+	FIELD field_361 needsUpdate Z
+	FIELD field_362 rendererBox Lnet/minecraft/class_140;
+	FIELD field_363 chunkIndex I
+	FIELD field_364 isVisible Z
+	FIELD field_365 isWaitingOnOcclusionQuery Z
+	FIELD field_366 glOcclusionQuery I
+	METHOD <init> (Lnet/minecraft/class_159;Ljava/util/List;IIIII)V
+		ARG 1 world
+		ARG 2 tileEntities
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 scale
+		ARG 7 renderList
+	METHOD method_303 updateRenderer ()V
+	METHOD method_304 getGlCallList (I)I
+	METHOD method_305 setPosition (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_306 distanceToEntitySquared (Lnet/minecraft/class_144;)F
+		ARG 1 entity
+	METHOD method_307 updateFrustrumStatus (Lnet/minecraft/class_288;)V
+		ARG 1 camera
+	METHOD method_308 reset ()V
+	METHOD method_309 stopREndering ()V
+	METHOD method_310 callOcclusionQueryList ()V
+	METHOD method_311 skipRenderPasses ()Z
+	METHOD method_312 markDirty ()V
+	METHOD method_313 setupGLTranslation ()V

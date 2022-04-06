@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_262 net/minecraft/world/WorldAccess
+CLASS net/minecraft/class_262 net/minecraft/world/BlockAccess
 	METHOD method_818 getBlockAtPosition (III)I
 		ARG 1 x
 		ARG 2 y

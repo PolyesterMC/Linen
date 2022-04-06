@@ -29,4 +29,37 @@ CLASS net/minecraft/class_10 net/minecraft/client/render/Tesselator
 	FIELD field_9 convertQuadsToTriangles Z
 	METHOD <init> (I)V
 		ARG 1 bufferSize
-	METHOD method_37 setColor (I)V
+	METHOD method_25 draw ()V
+	METHOD method_26 setTexture (DD)V
+		ARG 1 textureU
+		ARG 3 textureV
+	METHOD method_28 addVertexWithUV (DDDDD)V
+	METHOD method_29 setOpaque (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD method_30 setRGBAColor (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD method_31 switchDrawMode (I)V
+		ARG 1 drawMode
+	METHOD method_32 setOpaque (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD method_33 setRGBAColor (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD method_34 drawQuads ()V
+	METHOD method_35 setOffsets (DDD)V
+		ARG 1 xOffset
+		ARG 3 yOffset
+		ARG 5 zOffset
+	METHOD method_36 setNormal (FFF)V
+	METHOD method_37 setOpaque (I)V
+	METHOD method_38 disableColor ()V
+	METHOD method_39 reset ()V

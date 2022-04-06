@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_13 net/minecraft/entity/player/PlayerController
+	FIELD field_35 client Lnet/minecraft/class_25;
+	FIELD field_36 isInTestMode Z
+	METHOD <init> (Lnet/minecraft/class_25;)V
+		ARG 1 client
+	METHOD method_41 init ()V
+	METHOD method_42 setPartialTime (F)V
+		ARG 1 partialTime
+	METHOD method_43 clickBlock (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_44 startBreakingBlock (IIII)V
+	METHOD method_45 onWorldChange (Lnet/minecraft/class_159;)V
+		ARG 1 world
+	METHOD method_46 flipPlayer (Lnet/minecraft/class_191;)V
+		ARG 1 player
+	METHOD method_47 resetBlockBreaking ()V
+	METHOD method_48 markBlockForRemoval (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_49 onRespawn (Lnet/minecraft/class_191;)V
+		ARG 1 player
+	METHOD method_50 getPlayerReach ()F
+	METHOD method_51 onUpdate ()V
+	METHOD method_52 shouldDrawHUD ()Z

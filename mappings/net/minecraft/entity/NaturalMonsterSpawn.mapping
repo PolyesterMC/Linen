@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_3 net/minecraft/entity/NaturalMonsterSpawn
+	FIELD field_2 player Lnet/minecraft/class_31;
+	METHOD <init> (Lnet/minecraft/class_31;ILjava/lang/Class;[Ljava/lang/Class;)V
+		ARG 1 player
+		ARG 3 type
+		ARG 4 entities

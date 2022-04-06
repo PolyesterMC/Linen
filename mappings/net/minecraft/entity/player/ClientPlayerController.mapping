@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_31 net/minecraft/entity/player/ClientPlayerController
+	FIELD field_112 blockX I
+	FIELD field_113 blockY I
+	FIELD field_114 blockZ I
+	FIELD field_115 selectedBlockDamage F
+	FIELD field_116 previousBlockDamage F
+	FIELD field_117 destroyBlockCounter F
+	FIELD field_118 blockBreakCooldown I
+	FIELD field_119 monsterSpawner Lnet/minecraft/class_69;
+	FIELD field_120 animalSpawner Lnet/minecraft/class_69;

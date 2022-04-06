@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_161 net/minecraft/client/render/entity/model/PlayerModel
+CLASS net/minecraft/class_161 net/minecraft/client/render/entity/model/HumanModel
 	FIELD field_570 head Lnet/minecraft/class_58;
 	FIELD field_571 headwear Lnet/minecraft/class_58;
 	FIELD field_572 body Lnet/minecraft/class_58;

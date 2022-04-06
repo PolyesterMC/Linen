@@ -14,6 +14,7 @@ CLASS net/minecraft/class_101 net/minecraft/client/gui/Screen
 	METHOD method_270 init (Lnet/minecraft/class_25;II)V
 	METHOD method_271 onButtonClicked (Lnet/minecraft/class_257;)V
 		ARG 1 button
+	METHOD method_272 deleteWorld (ZI)V
 	METHOD method_273 init ()V
 	METHOD method_276 tick ()V
 	METHOD method_281 drawBackgroundTexture ()V

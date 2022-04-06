@@ -1,3 +1,4 @@
 CLASS net/minecraft/class_289 net/minecraft/client/sound/SoundHandler
+	METHOD method_873 playSound (Ljava/lang/String;FFFFF)V
 	METHOD method_874 registerSound (Ljava/lang/String;Ljava/io/File;)V
 	METHOD method_878 registerMusic (Ljava/lang/String;Ljava/io/File;)V

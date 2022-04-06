@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_92 net/minecraft/client/gui/screen/YesNoScreen
+	FIELD field_273 parent Lnet/minecraft/class_101;
+	FIELD field_274 line1 Ljava/lang/String;
+	FIELD field_275 line2 Ljava/lang/String;
+	FIELD field_276 worldId I

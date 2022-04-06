@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_272 net/minecraft/util/logic/ProgressUpdate
+	METHOD method_840 setLoadingProcess (I)V
+	METHOD method_841 displayProgressMessage (Ljava/lang/String;)V
+	METHOD method_842 setContextDescription (Ljava/lang/String;)V

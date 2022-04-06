@@ -1,7 +1,11 @@
 CLASS net/minecraft/class_66 net/minecraft/world/ChunkAccess
-	METHOD method_203 isChunkLoaded (II)Z
+	METHOD method_202 unloadPreviousThousandChunks ()Z
+	METHOD method_203 loadChunk (II)Z
 		ARG 1 x
 		ARG 2 z
+	METHOD method_204 generateFeatures (Lnet/minecraft/class_66;II)V
+	METHOD method_205 saveChunks (ZLnet/minecraft/class_272;)Z
+		ARG 2 progress
 	METHOD method_206 canWrite ()Z
 	METHOD method_207 getChunk (II)Lnet/minecraft/class_291;
 		ARG 1 x

@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_49 net/minecraft/world/feature/Feature
+	METHOD method_169 setScale (DDD)V
 	METHOD method_170 generate (Lnet/minecraft/class_159;Ljava/util/Random;III)Z

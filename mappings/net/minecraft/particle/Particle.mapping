@@ -1,0 +1,25 @@
+CLASS net/minecraft/class_266 net/minecraft/particle/Particle
+	FIELD field_1043 jitterX F
+	FIELD field_1044 jitterY F
+	FIELD field_1045 age I
+	FIELD field_1046 maxAge I
+	FIELD field_1047 scale F
+	FIELD field_1048 gravity F
+	FIELD field_1049 r F
+	FIELD field_1050 g F
+	FIELD field_1051 b F
+	FIELD field_1052 interpPosX D
+	FIELD field_1053 interpPosY D
+	FIELD field_1054 interpPosZ D
+	FIELD field_1055 particleTextureId I
+	METHOD <init> (Lnet/minecraft/class_159;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD method_825 render (Lnet/minecraft/class_10;FFFFFF)V
+	METHOD method_826 getFXLayer ()I
+	METHOD method_827 multiplyVelocity (F)Lnet/minecraft/class_266;
+		ARG 1 scale
+	METHOD method_828 scaleBy (F)Lnet/minecraft/class_266;
+		ARG 1 scale

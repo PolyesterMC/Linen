@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_69 net/minecraft/entity/NaturalEntitySpawn
+	FIELD field_219 maxSpawns I
+	FIELD field_220 entityType Ljava/lang/Class;
+	FIELD field_221 entitieType [Ljava/lang/Class;
+	METHOD method_208 onUpdate (Lnet/minecraft/class_159;)V
+	METHOD method_209 genSpawningPoint (Lnet/minecraft/class_159;II)Lnet/minecraft/class_240;
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkY
+	METHOD method_210 spawn (Lnet/minecraft/class_159;ILnet/minecraft/class_272;)I

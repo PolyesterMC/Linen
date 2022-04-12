@@ -95,11 +95,15 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 3 y
 		ARG 4 z
 	METHOD method_473 scheduleLightingUpdate (Lnet/minecraft/class_129;IIIIII)V
+	METHOD method_475 containsMaterial (Lnet/minecraft/class_140;Lnet/minecraft/class_293;)Z
+	METHOD method_476 handleAcceleration (Lnet/minecraft/class_140;Lnet/minecraft/class_293;Lnet/minecraft/class_144;)Z
 	METHOD method_477 spawnEntity (Lnet/minecraft/class_144;)V
 		ARG 1 entity
 	METHOD method_478 squaredDistanceTo (Lnet/minecraft/class_144;D)Lnet/minecraft/class_191;
 	METHOD method_479 createExplosion (Lnet/minecraft/class_144;DDDF)V
+	METHOD method_480 getEntityPath (Lnet/minecraft/class_144;IIIF)Lnet/minecraft/class_108;
 	METHOD method_481 getBlocksInBox (Lnet/minecraft/class_144;Lnet/minecraft/class_140;)Ljava/util/List;
+	METHOD method_482 getPathToEntity (Lnet/minecraft/class_144;Lnet/minecraft/class_144;F)Lnet/minecraft/class_108;
 	METHOD method_483 playSound (Lnet/minecraft/class_144;Ljava/lang/String;FF)V
 		ARG 1 entity
 		ARG 2 soundId
@@ -148,6 +152,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 	METHOD method_501 removeListener (Lnet/minecraft/class_53;)V
 		ARG 1 worldEventListener
 	METHOD method_502 setLightValue (Lnet/minecraft/class_129;IIII)V
+	METHOD method_503 isInLiquid (Lnet/minecraft/class_140;)Z
 	METHOD method_504 removePlayer (Lnet/minecraft/class_144;)V
 		ARG 1 player
 	METHOD method_505 getEntitiesExcluding (Lnet/minecraft/class_144;Lnet/minecraft/class_140;)Ljava/util/List;
@@ -167,6 +172,7 @@ CLASS net/minecraft/class_159 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 meta
+	METHOD method_513 isBoxBurning (Lnet/minecraft/class_140;)Z
 	METHOD method_515 getDebugStringT ()Ljava/lang/String;
 	METHOD method_517 getTop (II)I
 		ARG 1 x

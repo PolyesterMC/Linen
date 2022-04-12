@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_208 net/minecraft/item/DroppedItem
+	FIELD field_882 pickupDelay I
 	FIELD field_885 stack Lnet/minecraft/class_236;

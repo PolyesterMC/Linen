@@ -1,3 +1,13 @@
 CLASS net/minecraft/class_239 net/minecraft/client/render/AbstractTileEntityRenderer
+	FIELD field_996 tileEntityRenderer Lnet/minecraft/class_287;
+	METHOD method_789 getTextRenderer ()Lnet/minecraft/class_136;
 	METHOD method_790 render (Lnet/minecraft/class_40;DDDF)V
 		ARG 1 mobSpawner
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 scale
+	METHOD method_791 bindTexture (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_792 setTileEntityRenderer (Lnet/minecraft/class_287;)V
+		ARG 1 entityRenderer

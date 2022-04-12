@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_115 net/minecraft/block/AbstractLiquidBlock
 	FIELD field_373 liquidType I
+	METHOD method_323 getFluidHeightPercent (I)F
 	METHOD method_326 (Lnet/minecraft/class_159;III)I
 		ARG 1 world

@@ -1,3 +1,23 @@
 CLASS net/minecraft/class_287 net/minecraft/render/entity/tileentity/TileEntityRenderer
 	FIELD field_1128 instance Lnet/minecraft/class_287;
+	FIELD field_1129 playerXs D
+	FIELD field_1130 playerYs D
+	FIELD field_1131 playerZs D
+	FIELD field_1132 textureManager Lnet/minecraft/class_243;
+	FIELD field_1133 world Lnet/minecraft/class_159;
+	FIELD field_1134 player Lnet/minecraft/class_191;
+	FIELD field_1135 playerYaw F
+	FIELD field_1136 playerPitch F
+	FIELD field_1137 playerX D
+	FIELD field_1138 playerY D
+	FIELD field_1139 playerZ D
+	FIELD field_1140 specialRendererMap Ljava/util/Map;
+	FIELD field_1141 textRenderer Lnet/minecraft/class_136;
+	METHOD method_862 getTextRenderer ()Lnet/minecraft/class_136;
+	METHOD method_863 hasSpecialRenderer (Lnet/minecraft/class_40;)Z
+		ARG 1 tileEntity
 	METHOD method_864 renderTileEntity (Lnet/minecraft/class_40;DDDF)V
+	METHOD method_865 renderTileEntity (Lnet/minecraft/class_40;F)V
+	METHOD method_866 addRenderInfoToCache (Lnet/minecraft/class_159;Lnet/minecraft/class_243;Lnet/minecraft/class_136;Lnet/minecraft/class_191;F)V
+	METHOD method_867 getSpecialRendererForClass (Ljava/lang/Class;)Lnet/minecraft/class_239;
+	METHOD method_868 getSpecialRendererForClass (Lnet/minecraft/class_40;)Lnet/minecraft/class_239;

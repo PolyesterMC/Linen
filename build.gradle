@@ -204,7 +204,7 @@ task downloadIntermediary(type: Download) {
 
 	// school wifi is a treat, change urls when doing actual mappings.
 	def cursed_url = "https://drive.google.com/uc?export=download&id=1Bmjw9q-5r0M58V-UPRqVYcFQ6ISWkn85"
-	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
+	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(cursed_url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 

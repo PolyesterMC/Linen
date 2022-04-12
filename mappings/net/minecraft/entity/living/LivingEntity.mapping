@@ -1,24 +1,54 @@
 CLASS net/minecraft/class_295 net/minecraft/entity/living/LivingEntity
 	FIELD field_1194 attackTime I
+	FIELD field_1195 prevCameraPitch F
+	FIELD field_1196 cameraPitch F
+	FIELD field_1197 isDead Z
+	FIELD field_1198 unusedInt I
+	FIELD field_1199 unusedFloat11 F
+	FIELD field_1200 prevLimbYaw F
+	FIELD field_1201 limbYaw F
 	FIELD field_1202 idleSoundTicks I
-	FIELD field_1204 outOfCombatTime I
-	FIELD field_1205 leftwardVelocity F
+	FIELD field_1203 limbSwing F
+	FIELD field_1204 entityAge I
+	FIELD field_1205 strafeVelocity F
 	FIELD field_1206 forwardVelocity F
-	FIELD field_1207 field_1205 F
+	FIELD field_1207 randomYawVelocity F
 	FIELD field_1208 isJumping Z
+	FIELD field_1209 defaultPitch F
+	FIELD field_1210 baseMovespeed F
+	FIELD field_1211 healthInHearts I
+	FIELD field_1212 unusedFloat F
+	FIELD field_1213 unusedFloat2 F
+	FIELD field_1214 unusedFloat3 F
 	FIELD field_1215 bodyYaw F
 	FIELD field_1216 bodyPitch F
+	FIELD field_1217 unusedFloat4 F
+	FIELD field_1218 unusedFloat5 F
+	FIELD field_1219 unusedFloat6 F
+	FIELD field_1220 unusedFloat7 F
+	FIELD field_1221 unusedBoolean1 Z
 	FIELD field_1222 textureLocation Ljava/lang/String;
+	FIELD field_1223 unusedBoolean2 Z
+	FIELD field_1224 unusedFloat8 F
+	FIELD field_1225 entityType Ljava/lang/String;
+	FIELD field_1226 unusedFloat9 F
+	FIELD field_1227 scoreValue I
+	FIELD field_1228 unusedFloat10 F
 	FIELD field_1229 health I
+	FIELD field_1230 prevHealth I
 	FIELD field_1231 hurtTime I
+	FIELD field_1232 maxHurtTime I
+	FIELD field_1233 attackedYaw F
 	FIELD field_1234 deathTime I
 	METHOD method_919 spawnExplosionParticle ()V
+	METHOD method_922 onDeath ()V
 	METHOD method_923 canSpawnAtPos (DDD)Z
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 	METHOD method_924 heal (I)V
 	METHOD method_926 getIdleSound ()Ljava/lang/String;
+	METHOD method_927 updateActionState (FFF)F
 	METHOD method_929 getHurtSound ()Ljava/lang/String;
 	METHOD method_930 getDeathSound ()Ljava/lang/String;
 	METHOD method_932 getDropItem ()I

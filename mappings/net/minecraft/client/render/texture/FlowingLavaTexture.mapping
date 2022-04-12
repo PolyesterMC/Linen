@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_223 net/minecraft/client/render/texture/FlowingLavaTexture
+	FIELD field_921 red [F
+	FIELD field_922 green [F
+	FIELD field_923 blue [F
+	FIELD field_924 alpha [F
+	FIELD field_925 tickCounter I

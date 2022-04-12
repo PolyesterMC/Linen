@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_21 net/minecraft/client/render/texture/FlowingWaterTexture
+	FIELD field_44 red [F
+	FIELD field_45 green [F
+	FIELD field_46 blue [F
+	FIELD field_47 alpha [F
+	FIELD field_48 tickCounter I

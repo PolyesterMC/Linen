@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_227 net/minecraft/client/render/texture/StillWaterTexture
+	FIELD field_937 red [F
+	FIELD field_938 green [F
+	FIELD field_939 blue [F
+	FIELD field_940 alpha [F
+	FIELD field_941 tickCounter I

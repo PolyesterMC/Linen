@@ -1,6 +1,8 @@
 CLASS net/minecraft/class_220 net/minecraft/client/gui/screen/InventoryScreen
 	FIELD field_909 sizeX I
 	FIELD field_910 sizeY I
+	FIELD field_911 items Ljava/util/List;
+	FIELD field_912 droppedItemRenderer Lnet/minecraft/class_30;
 	FIELD field_913 pickedUpItemStack Lnet/minecraft/class_236;
 	METHOD method_702 drawBackground (F)V
 		ARG 1 offset

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_166 net/minecraft/client/render/RenderManager
-	FIELD field_588 INSTANCE Lnet/minecraft/class_166;
-	METHOD method_554 getEntityRenderer (Lnet/minecraft/class_144;)Lnet/minecraft/class_47;

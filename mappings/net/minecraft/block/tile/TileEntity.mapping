@@ -5,6 +5,7 @@ CLASS net/minecraft/class_40 net/minecraft/block/tile/TileEntity
 	FIELD field_139 z I
 	FIELD field_140 CLASSES_BY_NAME Ljava/util/Map;
 	FIELD field_141 NAMES_BY_CLASSES Ljava/util/Map;
+	METHOD method_128 getDistanceFrom (DDD)D
 	METHOD method_129 fromTag (Lnet/minecraft/class_8;)V
 		ARG 1 tag
 	METHOD method_130 register (Ljava/lang/Class;Ljava/lang/String;)V

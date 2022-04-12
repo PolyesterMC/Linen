@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_60 net/minecraft/client/render/texture/StillLavaTexture
+	FIELD field_199 red [F
+	FIELD field_200 green [F
+	FIELD field_201 blue [F
+	FIELD field_202 alpha [F

@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_225 net/minecraft/entity/living/Mob
+	FIELD field_927 pathToEntity Lnet/minecraft/class_108;
 	FIELD field_928 workingEntity Lnet/minecraft/class_144;
+	FIELD field_929 hasAttacked Z
 	METHOD method_728 findEntity ()Lnet/minecraft/class_144;
 	METHOD method_729 getOffsetLightBrightness (III)F
 		ARG 1 x
@@ -9,3 +11,4 @@ CLASS net/minecraft/class_225 net/minecraft/entity/living/Mob
 		ARG 1 entity
 	METHOD method_731 attack (Lnet/minecraft/class_144;F)V
 		ARG 1 entity
+		ARG 2 damage

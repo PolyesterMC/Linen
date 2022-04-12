@@ -8,6 +8,8 @@ CLASS net/minecraft/class_243 net/minecraft/client/render/TextureManager
 	FIELD field_1008 urlToImage Ljava/util/Map;
 	FIELD field_1009 options Lnet/minecraft/class_269;
 	FIELD field_1010 clampTexture Z
+	METHOD <init> (Lnet/minecraft/class_269;)V
+		ARG 1 options
 	METHOD method_796 tick ()V
 	METHOD method_797 deleteTexture (I)V
 	METHOD method_798 averageColor (II)I

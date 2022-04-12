@@ -3,5 +3,7 @@ CLASS net/minecraft/class_47 net/minecraft/client/render/entity/EntityRenderer
 	METHOD method_158 renderBox (Lnet/minecraft/class_140;)V
 	METHOD method_161 render (Lnet/minecraft/class_144;DDDFF)V
 		ARG 1 render
+	METHOD method_162 setRenderManager (Lnet/minecraft/class_166;)V
 	METHOD method_164 (Ljava/lang/String;)V
 		ARG 1 path
+	METHOD method_166 renderShadowAndFire (Lnet/minecraft/class_144;DDDFF)V

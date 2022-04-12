@@ -1,11 +1,31 @@
 CLASS net/minecraft/class_144 net/minecraft/entity/Entity
-	FIELD field_455 horizontalOffset F
-	FIELD field_456 verticalOffset F
+	FIELD field_455 width F
+	FIELD field_456 height F
+	FIELD field_457 prevModifiedWalkDistance F
+	FIELD field_458 modifiedWalkDistance F
+	FIELD field_459 canTriggerWalking Z
 	FIELD field_460 fallDistance F
+	FIELD field_461 lastTickX D
+	FIELD field_462 lastTickY D
+	FIELD field_463 lastTickZ D
+	FIELD field_464 ySize F
+	FIELD field_465 stepHeight F
+	FIELD field_466 noClip Z
+	FIELD field_467 entityCollisionReduction F
+	FIELD field_468 unusedBoolean Z
 	FIELD field_469 random Ljava/util/Random;
+	FIELD field_470 tickAge I
+	FIELD field_471 fireResistance I
 	FIELD field_472 fireTime I
+	FIELD field_473 maxAir I
+	FIELD field_474 isInWater Z
+	FIELD field_475 heartHealth I
 	FIELD field_476 airTime I
 	FIELD field_477 skinLocation Ljava/lang/String;
+	FIELD field_478 entityRiderPitch D
+	FIELD field_479 entityRiderYaw D
+	FIELD field_480 nextStepDistance I
+	FIELD field_481 firstUpdate Z
 	FIELD field_482 preventEntitySpawning Z
 	FIELD field_483 passenger Lnet/minecraft/class_144;
 	FIELD field_484 vehicle Lnet/minecraft/class_144;
@@ -25,26 +45,40 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	FIELD field_498 prevPitch F
 	FIELD field_499 boundingBox Lnet/minecraft/class_140;
 	FIELD field_500 onGround Z
-	FIELD field_503 Z
+	FIELD field_501 isCollidedHorizontally Z
+	FIELD field_502 isCollided Z
+	FIELD field_503 doSurfaceCollision Z
 	FIELD field_504 dead Z
 	FIELD field_505 verticalModifier F
 	METHOD <init> (Lnet/minecraft/class_159;)V
 		ARG 1 world
 	METHOD method_385 updateRidden ()V
+	METHOD method_386 getMountedOffset ()D
+	METHOD method_387 inRenderRange (D)Z
+		ARG 1 dist
 	METHOD method_388 getBrightness (F)F
 	METHOD method_389 setBoundingBoxSpacing (FF)V
-		ARG 1 horizontalOffset
-		ARG 2 verticalOffset
+		ARG 1 width
+		ARG 2 height
+	METHOD method_390 moveFlying (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_391 spawnDroppedItemIntern (IIF)Lnet/minecraft/class_208;
 		ARG 1 itemId
 		ARG 2 count
 		ARG 3 yOffset
 	METHOD method_392 serialize (Lnet/minecraft/class_8;)V
 		ARG 1 tag
-	METHOD method_394 receiveDamage (Lnet/minecraft/class_144;I)Z
+	METHOD method_393 inRenderRange (Lnet/minecraft/class_45;)Z
+		ARG 1 pos
+	METHOD method_394 recieveDamage (Lnet/minecraft/class_144;I)Z
 		ARG 1 entity
 		ARG 2 id
+	METHOD method_395 setWorld (Lnet/minecraft/class_159;)V
+		ARG 1 world
 	METHOD method_396 onCollideWithPlayer (Lnet/minecraft/class_191;)V
+		ARG 1 player
 	METHOD method_397 isInsideOf (Lnet/minecraft/class_293;)Z
 		ARG 1 material
 	METHOD method_398 packDoubles ([D)Lnet/minecraft/class_145;
@@ -73,8 +107,16 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 	METHOD method_408 onPlayerInteraction (Lnet/minecraft/class_191;)Z
 		ARG 1 player
 	METHOD method_409 runTick ()V
+	METHOD method_410 verifyPositionInLiquid (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_411 setAngles (FF)V
+		ARG 1 pitch
+		ARG 2 yaw
 	METHOD method_412 addEntityId (Lnet/minecraft/class_8;)Z
 		ARG 1 tag
+	METHOD method_413 isCollideable ()Z
 	METHOD method_414 move (DDD)V
 		ARG 1 dx
 		ARG 3 dy
@@ -88,15 +130,32 @@ CLASS net/minecraft/class_144 net/minecraft/entity/Entity
 		ARG 5 z
 	METHOD method_418 fromNbt (Lnet/minecraft/class_8;)V
 		ARG 1 tag
+	METHOD method_419 squaredDistanceToEntity (Lnet/minecraft/class_144;)D
+		ARG 1 entity
 	METHOD method_420 distanceTo (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+	METHOD method_421 applyEntityCollision (Lnet/minecraft/class_144;)V
+		ARG 1 entity
+	METHOD method_422 addVelocity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_423 getCollisionBox (Lnet/minecraft/class_144;)Lnet/minecraft/class_140;
+		ARG 1 entity
+	METHOD method_424 dismountEntity (Lnet/minecraft/class_144;)V
+		ARG 1 entity
+	METHOD method_425 getVerticalModifier ()D
 	METHOD method_426 initPlayer ()V
 	METHOD method_427 markForRemoval ()V
 	METHOD method_428 tick ()V
 	METHOD method_429 recieveDamage ()V
+	METHOD method_430 getBoundingBox ()Lnet/minecraft/class_140;
+	METHOD method_431 handleWaterMovement ()Z
 	METHOD method_432 getVerticalOffset ()F
+	METHOD method_433 handleLavaMovement ()Z
+	METHOD method_434 isPushable ()Z
 	METHOD method_435 getTextureLocation ()Ljava/lang/String;
 	METHOD method_436 getEntityString ()Ljava/lang/String;
 	METHOD method_437 isAlive ()Z

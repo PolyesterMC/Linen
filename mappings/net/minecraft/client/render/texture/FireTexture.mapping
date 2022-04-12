@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_131 net/minecraft/client/render/texture/FireTexture
+	FIELD field_418 currentFrame [F
+	FIELD field_419 lastFrame [F

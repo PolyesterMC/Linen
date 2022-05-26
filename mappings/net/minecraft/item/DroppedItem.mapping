@@ -1,3 +1,18 @@
 CLASS net/minecraft/class_208 net/minecraft/item/DroppedItem
 	FIELD field_882 pickupDelay I
+	FIELD field_883 hoverStart F
+	FIELD field_884 unusedInt I
 	FIELD field_885 stack Lnet/minecraft/class_236;
+	FIELD field_886 health I
+	FIELD field_887 age I
+	METHOD <init> (Lnet/minecraft/class_159;DDDLnet/minecraft/class_236;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 itemStack
+	METHOD method_692 moveToValidPosition (DDD)Z
+		COMMENT Used to move a Dropped Item out of a wall
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

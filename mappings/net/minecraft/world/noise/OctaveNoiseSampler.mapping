@@ -4,4 +4,6 @@ CLASS net/minecraft/class_184 net/minecraft/world/noise/OctaveNoiseSampler
 	METHOD <init> (Ljava/util/Random;I)V
 		ARG 1 random
 	METHOD method_586 generateNoiseOctaves (DD)D
+		ARG 1 x
+		ARG 3 y
 	METHOD method_587 generateNoiseOctaves ([DDDDIIIDDD)[D

@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_47 net/minecraft/client/render/entity/EntityRenderer
+	FIELD field_158 entityRenderManager Lnet/minecraft/class_166;
 	FIELD field_159 shadowRadius F
+	FIELD field_161 playerModel Lnet/minecraft/class_260;
 	METHOD method_158 renderBox (Lnet/minecraft/class_140;)V
 	METHOD method_161 render (Lnet/minecraft/class_144;DDDFF)V
 		ARG 1 render

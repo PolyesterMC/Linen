@@ -147,9 +147,13 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 	METHOD method_651 getCollidingBoundingBoxes (Lnet/minecraft/class_159;IIILnet/minecraft/class_140;Ljava/util/ArrayList;)V
 	METHOD method_652 onLand (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;)V
 		ARG 1 world
-	METHOD method_653 addVelocityToEntity (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;Lnet/minecraft/class_45;)V
+	METHOD method_653 addVelocityToFluid (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;Lnet/minecraft/class_45;)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 entity
+		ARG 6 velocity
 	METHOD method_654 use (Lnet/minecraft/class_159;IIILnet/minecraft/class_191;)Z
 		ARG 1 world
 		ARG 2 x
@@ -184,6 +188,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 3 y
 		ARG 4 z
 		ARG 5 id
+	METHOD method_662 getRenderMode ()I
 	METHOD method_663 setResistance (F)Lnet/minecraft/class_201;
 		ARG 1 resistance
 	METHOD method_664 InXZBounds (Lnet/minecraft/class_45;)Z
@@ -201,7 +206,7 @@ CLASS net/minecraft/class_201 net/minecraft/block/Block
 		ARG 5 side
 	METHOD method_667 onEntityCollidedWithBlock (Lnet/minecraft/class_159;IIILnet/minecraft/class_144;)V
 	METHOD method_668 onActivation (Lnet/minecraft/class_159;IIILnet/minecraft/class_191;)V
-	METHOD method_669 randomDisplayTick (Lnet/minecraft/class_159;IIILjava/util/Random;)V
+	METHOD method_669 randomRenderTick (Lnet/minecraft/class_159;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

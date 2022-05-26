@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_236 net/minecraft/item/ItemStack
 	FIELD field_989 count I
+	FIELD field_990 queuedAnimations I
 	FIELD field_991 itemId I
 	FIELD field_992 id I
 	METHOD method_768 asItem ()Lnet/minecraft/class_186;

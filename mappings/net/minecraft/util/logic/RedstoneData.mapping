@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_265 net/minecraft/util/logic/RedstoneData
+	FIELD field_1039 x I
+	FIELD field_1040 y I
+	FIELD field_1041 z I
+	FIELD field_1042 updateTime J
+	METHOD <init> (IIIJ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 time

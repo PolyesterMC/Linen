@@ -2,3 +2,8 @@ CLASS net/minecraft/class_97 net/minecraft/block/nonsolid/RedstoneTorch
 	FIELD field_297 isActivated Z
 	FIELD field_298 torchUpdates Ljava/util/List;
 	METHOD method_260 checkForBurnout (Lnet/minecraft/class_159;IIIZ)Z
+	METHOD method_261 isValidPosition (Lnet/minecraft/class_159;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

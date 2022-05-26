@@ -1,5 +1,26 @@
 CLASS net/minecraft/class_115 net/minecraft/block/AbstractLiquidBlock
 	FIELD field_373 liquidType I
+	METHOD method_322 getFlowDirection (Lnet/minecraft/class_262;IIILnet/minecraft/class_293;)D
+		ARG 0 blockAccess
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
 	METHOD method_323 getFluidHeightPercent (I)F
-	METHOD method_326 (Lnet/minecraft/class_159;III)I
+	METHOD method_324 getEffectiveFlowDecay (Lnet/minecraft/class_262;III)I
+	METHOD method_325 getFlowVector (Lnet/minecraft/class_262;III)Lnet/minecraft/class_45;
+	METHOD method_326 getFlowDecay (Lnet/minecraft/class_159;III)I
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_327 startLavaMixEffect (Lnet/minecraft/class_159;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_328 checkForLavaMix (Lnet/minecraft/class_159;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

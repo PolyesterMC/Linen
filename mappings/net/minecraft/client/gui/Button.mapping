@@ -7,6 +7,13 @@ CLASS net/minecraft/class_257 net/minecraft/client/gui/Button
 	FIELD field_1030 isVisible Z
 	FIELD field_1031 length I
 	FIELD field_1032 height I
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 length
+		ARG 5 height
+		ARG 6 text
 	METHOD <init> (IIILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 x

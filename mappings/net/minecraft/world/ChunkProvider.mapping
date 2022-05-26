@@ -1,0 +1,30 @@
+CLASS net/minecraft/class_275 net/minecraft/world/ChunkProvider
+	FIELD field_1097 unusedNoise6 [D
+	FIELD field_1098 unusedNoise [D
+	FIELD field_1099 unusedNoise2 [D
+	FIELD field_1100 unusedNoise4 [D
+	FIELD field_1101 unusedNoise5 [D
+	FIELD field_1102 unused [[I
+	FIELD field_1103 seedRandom Ljava/util/Random;
+	FIELD field_1104 unusedNoiseSampler Lnet/minecraft/class_184;
+	FIELD field_1105 unusedNoiseSampler2 Lnet/minecraft/class_184;
+	FIELD field_1106 unusedNoiseSampler3 Lnet/minecraft/class_184;
+	FIELD field_1107 sandAndGravelNoise Lnet/minecraft/class_184;
+	FIELD field_1108 stoneNoiseSampler Lnet/minecraft/class_184;
+	FIELD field_1109 unusedSampler4 Lnet/minecraft/class_184;
+	FIELD field_1110 unusedSampler5 Lnet/minecraft/class_184;
+	FIELD field_1111 mobSpawnerNoise Lnet/minecraft/class_184;
+	FIELD field_1112 world Lnet/minecraft/class_159;
+	FIELD field_1113 noiseArray [D
+	FIELD field_1114 sandNoise [D
+	FIELD field_1115 gravelNoise [D
+	FIELD field_1116 stoneNoise [D
+	METHOD <init> (Lnet/minecraft/class_159;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD method_843 generateTerrain (II[B)V
+	METHOD method_844 generateLargeCave (II[BDDD)V
+	METHOD method_845 generateCave (II[BDDDFFFIID)V
+	METHOD method_846 initializeNoise ([DIIIIII)[D
+	METHOD method_847 replaceSurface (II[B)V
+	METHOD method_848 generateCave (II[B)V

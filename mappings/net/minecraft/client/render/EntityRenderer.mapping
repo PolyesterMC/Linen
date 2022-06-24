@@ -1,0 +1,33 @@
+CLASS net/minecraft/class_59 net/minecraft/client/render/EntityRenderer
+	FIELD field_184 worldRenderer Lnet/minecraft/class_105;
+	FIELD field_187 fogColourBuffer Ljava/nio/FloatBuffer;
+	FIELD field_188 fogR F
+	FIELD field_189 fogG F
+	FIELD field_190 fogB F
+	FIELD field_191 client Lnet/minecraft/class_25;
+	FIELD field_192 farPlaneDistance F
+	FIELD field_193 updateCount I
+	FIELD field_194 target Lnet/minecraft/class_144;
+	FIELD field_195 prevTime J
+	FIELD field_196 random Ljava/util/Random;
+	FIELD field_197 prevFogColor F
+	FIELD field_198 fogColor F
+	METHOD <init> (Lnet/minecraft/class_25;)V
+		ARG 1 client
+	METHOD method_184 update ()V
+	METHOD method_185 render (F)V
+	METHOD method_186 setFogColourBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD method_187 prepareCamera (FI)V
+	METHOD method_188 prepareFog (I)V
+	METHOD method_189 prepareOverlayRendering ()V
+	METHOD method_190 renderWorld (F)V
+	METHOD method_191 renderHand (FI)V
+	METHOD method_192 addRainToParticleManager ()V
+	METHOD method_193 getPlayerPos (F)Lnet/minecraft/class_45;
+	METHOD method_194 renderCrosshair (F)V
+	METHOD method_195 getFovModifier (F)F
+	METHOD method_196 renderHurtEffect (F)V
+	METHOD method_197 prepareViewBobbing (F)V
+	METHOD method_198 orientCamera (F)V
+	METHOD method_199 renderRain (F)V
+	METHOD method_200 updateFog (F)V

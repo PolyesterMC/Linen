@@ -1,6 +1,15 @@
 CLASS net/minecraft/class_194 net/minecraft/client/render/HudRenderer
+	FIELD field_743 testMessage Ljava/lang/String;
 	FIELD field_744 damageGuiPartialTime F
+	FIELD field_745 prevBrightness F
+	FIELD field_746 itemRenderer Lnet/minecraft/class_30;
+	FIELD field_747 chatMessageList Ljava/util/List;
+	FIELD field_748 rand Ljava/util/Random;
 	FIELD field_749 client Lnet/minecraft/class_25;
+	FIELD field_750 updateCounter I
 	METHOD <init> (Lnet/minecraft/class_25;)V
 		ARG 1 client
-	METHOD method_618 tickExtensions ()V
+	METHOD method_618 updateTick ()V
+	METHOD method_619 renderVignette (FII)V
+	METHOD method_620 renderOverlay (FZII)V
+	METHOD method_621 renderInventorySlot (IIIF)V

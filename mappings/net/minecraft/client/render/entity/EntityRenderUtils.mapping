@@ -1,0 +1,19 @@
+CLASS net/minecraft/class_47 net/minecraft/client/render/entity/EntityRenderUtils
+	FIELD field_158 entityRenderManager Lnet/minecraft/class_166;
+	FIELD field_159 shadowRadius F
+	FIELD field_160 shadowOpaque F
+	FIELD field_161 playerModel Lnet/minecraft/class_260;
+	FIELD field_162 blockRender Lnet/minecraft/class_88;
+	METHOD method_157 getWorld ()Lnet/minecraft/class_159;
+	METHOD method_158 renderBox (Lnet/minecraft/class_140;)V
+	METHOD method_159 renderBox (Lnet/minecraft/class_140;DDD)V
+	METHOD method_160 renderFireOnEntity (Lnet/minecraft/class_144;DDDF)V
+	METHOD method_161 render (Lnet/minecraft/class_144;DDDFF)V
+		ARG 1 render
+	METHOD method_162 setRenderManager (Lnet/minecraft/class_166;)V
+	METHOD method_163 renderShadowOnBlock (Lnet/minecraft/class_201;DDDIIIFFDDD)V
+	METHOD method_164 loadTexture (Ljava/lang/String;)V
+		ARG 1 path
+	METHOD method_165 loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_166 renderShadowAndFire (Lnet/minecraft/class_144;DDDFF)V
+	METHOD method_167 renderEntityShadow (Lnet/minecraft/class_144;DDDFF)V

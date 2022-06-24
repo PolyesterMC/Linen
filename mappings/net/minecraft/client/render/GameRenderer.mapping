@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_59 net/minecraft/client/render/GameRenderer
-	FIELD field_184 worldRenderer Lnet/minecraft/class_105;

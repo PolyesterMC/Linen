@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_30 net/minecraft/client/render/entity/ItemRenderer
+	FIELD field_110 blockRenderer Lnet/minecraft/class_88;
+	FIELD field_111 random Ljava/util/Random;
+	METHOD method_109 renderInventoryItem (Lnet/minecraft/class_136;Lnet/minecraft/class_243;Lnet/minecraft/class_236;II)V
+	METHOD method_111 renderInventoryItemSlot (Lnet/minecraft/class_136;Lnet/minecraft/class_243;Lnet/minecraft/class_236;II)V

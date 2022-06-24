@@ -20,7 +20,11 @@ CLASS net/minecraft/class_303 net/minecraft/world/ClientWorldRenderer
 	FIELD field_1263 tileEntities Ljava/util/List;
 	FIELD field_1264 dummyBuffer [I
 	FIELD field_1265 occlusionResult Ljava/nio/IntBuffer;
+	FIELD field_1268 prevSortX D
+	FIELD field_1269 prevSortY D
+	FIELD field_1270 prevSortZ D
 	FIELD field_1271 damagePartialTime F
+	FIELD field_1272 frustumCheckOffset I
 	FIELD field_1273 world Lnet/minecraft/class_159;
 	FIELD field_1274 textureManager Lnet/minecraft/class_243;
 	FIELD field_1275 worldRenderers Ljava/util/List;
@@ -37,7 +41,25 @@ CLASS net/minecraft/class_303 net/minecraft/world/ClientWorldRenderer
 	FIELD field_1286 cloudTracker I
 	FIELD field_1287 starGLCallList I
 	FIELD field_1288 glSkyList I
+	METHOD method_946 loadRenderers ()V
+	METHOD method_947 renderSky (F)V
+	METHOD method_948 renderRenderLists (ID)V
+	METHOD method_949 checkOcclusionQueryResult (II)V
+	METHOD method_950 renderRenderLists (IIID)I
+	METHOD method_951 markBlocksForUpdate (IIIIII)V
+	METHOD method_952 renderEntities (Lnet/minecraft/class_45;Lnet/minecraft/class_288;F)V
+	METHOD method_953 drawBox (Lnet/minecraft/class_140;)V
+		ARG 1 box
 	METHOD method_954 reload (Lnet/minecraft/class_159;)V
+	METHOD method_955 renderAndSort (Lnet/minecraft/class_191;ID)I
+	METHOD method_956 renderBlockBreakParticles (Lnet/minecraft/class_191;Lnet/minecraft/class_212;ILnet/minecraft/class_236;F)V
+	METHOD method_957 updateRenderers (Lnet/minecraft/class_191;Z)Z
 	METHOD method_958 clipRenderersWithFrustrum (Lnet/minecraft/class_288;F)V
 	METHOD method_959 getChunkDebugString ()Ljava/lang/String;
+	METHOD method_960 renderClouds (F)V
+	METHOD method_961 markRenderersForNewPos (III)V
+	METHOD method_962 renderSelectionBox (Lnet/minecraft/class_191;Lnet/minecraft/class_212;ILnet/minecraft/class_236;F)V
 	METHOD method_963 getEntityDebugString ()Ljava/lang/String;
+	METHOD method_964 renderFancyClouds (F)V
+	METHOD method_965 updateClouds ()V
+	METHOD method_966 renderStars ()V

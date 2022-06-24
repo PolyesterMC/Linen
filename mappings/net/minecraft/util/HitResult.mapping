@@ -3,6 +3,7 @@ CLASS net/minecraft/class_212 net/minecraft/util/HitResult
 	FIELD field_892 x I
 	FIELD field_893 y I
 	FIELD field_894 z I
+	FIELD field_895 blockFace I
 	FIELD field_896 pos Lnet/minecraft/class_45;
 	FIELD field_897 target Lnet/minecraft/class_144;
 	METHOD <init> (IIIILnet/minecraft/class_45;)V

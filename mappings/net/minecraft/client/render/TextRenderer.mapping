@@ -1,6 +1,12 @@
 CLASS net/minecraft/class_136 net/minecraft/client/render/TextRenderer
+	FIELD field_424 textureName I
+	FIELD field_425 charWidth [I
+	FIELD field_426 fontDisplayLists I
+	FIELD field_427 buffer Ljava/nio/IntBuffer;
 	METHOD <init> (Lnet/minecraft/class_269;Ljava/lang/String;Lnet/minecraft/class_243;)V
 		ARG 1 optionHandler
 	METHOD method_348 getTextWidth (Ljava/lang/String;)I
+		ARG 1 string
 	METHOD method_349 drawStringWithShadow (Ljava/lang/String;III)V
+	METHOD method_350 renderString (Ljava/lang/String;IIIZ)V
 	METHOD method_351 drawTextWithoutShadow (Ljava/lang/String;III)V

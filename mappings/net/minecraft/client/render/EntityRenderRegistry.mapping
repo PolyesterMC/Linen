@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_238 net/minecraft/registry/EntityRegistry
+CLASS net/minecraft/class_238 net/minecraft/client/render/EntityRenderRegistry
 	FIELD field_994 stringToClass Ljava/util/Map;
 	FIELD field_995 classToString Ljava/util/Map;
 	METHOD method_785 fromNbt (Lnet/minecraft/class_8;Lnet/minecraft/class_159;)Lnet/minecraft/class_144;

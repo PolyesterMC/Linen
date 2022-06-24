@@ -26,4 +26,4 @@ CLASS net/minecraft/class_53 net/minecraft/world/WorldEventListener
 		ARG 6 z2
 	METHOD method_176 releaseEntitySkin (Lnet/minecraft/class_144;)V
 		ARG 1 entity
-	METHOD method_177 updateRenderers ()V
+	METHOD method_177 updateAllRenderers ()V

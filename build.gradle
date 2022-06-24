@@ -1,13 +1,12 @@
 buildscript {
 	repositories {
-		jcenter()
 		maven {
 			name "Fabric Repository"
 			url 'https://maven.fabricmc.net'
 		}
 	}
 	dependencies {
-		classpath "cuchaz:enigma-cli:${project.enigma_version}"
+		classpath "cuchaz:enigma-cli:0.22.0"
 		classpath "net.fabricmc:stitch:${project.stitch_version}"
 		classpath "commons-io:commons-io:2.6"
 		classpath 'de.undercouch:gradle-download-task:4.0.4'
@@ -87,7 +86,6 @@ def libs = new File("build/libs/")
 
 
 import com.google.common.hash.Hashing
-import com.google.common.collect.Iterables
 import cuchaz.enigma.command.CheckMappingsCommand
 import cuchaz.enigma.command.ComposeMappingsCommand
 import cuchaz.enigma.command.ConvertMappingsCommand
@@ -108,9 +106,6 @@ import net.fabricmc.tinyremapper.TinyUtils
 import org.apache.commons.io.FileUtils
 
 import java.nio.charset.StandardCharsets
-import java.nio.file.FileSystems
-import java.nio.file.Files
-import java.nio.file.Path
 import java.util.zip.GZIPOutputStream
 
 boolean validateChecksum(File file, String checksum) {
@@ -127,7 +122,7 @@ boolean validateChecksum(File file, String checksum) {
 
 task downloadVersionsManifest {
 	group = setupGroup
-	//inputs.property "mc_ver", minecraft_version
+
 	inputs.property "currenttime", new Date()
 	def manifestFile = new File(cacheFilesMinecraft, "version_manifest.json")
 	outputs.file(manifestFile)

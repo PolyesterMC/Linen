@@ -22,7 +22,9 @@ CLASS net/minecraft/class_243 net/minecraft/client/render/TextureManager
 		ARG 2 id
 	METHOD method_802 getTextureId (Ljava/lang/String;)I
 		ARG 1 path
-	METHOD method_803 getTexturegetTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD method_803 getTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
+		ARG 1 key
+		ARG 2 name
 	METHOD method_804 getImageData (Ljava/lang/String;Lnet/minecraft/class_306;)Lnet/minecraft/class_135;
 		ARG 1 name
 		ARG 2 buffer

@@ -2,6 +2,7 @@ CLASS net/minecraft/class_230 net/minecraft/util/MathHelper
 	METHOD method_734 sqrt (D)F
 	METHOD method_735 absAndMax (DD)D
 	METHOD method_736 sin (F)F
+	METHOD method_737 bucketInt (II)I
 	METHOD method_738 floor (D)I
 	METHOD method_739 cos (F)F
 	METHOD method_740 sqrt (F)F

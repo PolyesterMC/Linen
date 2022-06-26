@@ -15,7 +15,7 @@ CLASS net/minecraft/class_40 net/minecraft/block/tile/TileEntity
 		ARG 1 tag
 	METHOD method_132 getFromTag (Lnet/minecraft/class_8;)Lnet/minecraft/class_40;
 		ARG 0 tag
-	METHOD method_133 markDirty ()V
+	METHOD method_133 onInventoryUpdate ()V
 	METHOD method_134 tick ()V
 	METHOD method_135 getTileId ()I
 	METHOD method_136 getBlock ()Lnet/minecraft/class_201;

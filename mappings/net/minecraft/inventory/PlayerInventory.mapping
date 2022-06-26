@@ -16,6 +16,7 @@ CLASS net/minecraft/class_233 net/minecraft/inventory/PlayerInventory
 	METHOD method_751 changeCurrentItem (I)V
 		ARG 1 id
 	METHOD method_752 ensureIsBelowMaxStackCount (II)I
+	METHOD method_753 populateFromListTag (Lnet/minecraft/class_145;)V
 	METHOD method_754 canHarvestBlock (Lnet/minecraft/class_201;)Z
 		ARG 1 block
 	METHOD method_755 containsAndConsume (I)Z
